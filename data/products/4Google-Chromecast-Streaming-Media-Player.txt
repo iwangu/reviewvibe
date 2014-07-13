@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 431,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 19:53:47 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Beware, only 720p for direct cast from a PC etc."
+      },
+      {
+        "property1": "The Chromecast is great for what it can do but the only reason I bought it was to use it for when I travel. I figured that I could simply plug it in and run it off the hotel's wifi..., but you can't. I'm hoping this is something that Google adds to the Chromecast but for right now there is no way for you to authenticate the Chromecast once it gets connected to the hotel's wifi, generally you would see a log-on screen or something like that, my Paperwhite Kindle for example has this capability.Chromecast doesn't have that option and until it does there isn't much reason to purchase this if you are planning on using it for travel.",
+        "property2": "Don't plan on streaming to your hotel TV"
+      },
+      {
+        "property1": "Purchased the defective device 3 months ago. Contact with Google support probed fruitless. A replacement was not provided after over 4 weeks of phone contacts.The call prior to this I was told I was going to have a replacement unit processed. I then got an eMail 2 days after this later requiring my serial number- yes the very same number I gave the agent, and he verified he had recorded it.Just prior to Christmas a replacement unit was promised,.I was told all the hurdles were taken care of! January 6 - nothing had appeared! A phone call and some 3 hours, 15 minuets later, All I got were threats of no replacement, after a Manager in a different department found the notes and said this should not be a problem. This manager transferred me to the \"correct\" department. I say \"correct\" in quotes as this sure does not act like the correct department. The agent that toke the call over did not transfer to management as I requested after, her telling me that the promise of a warranty replacement was null and void. And did not have authorization. Let's see - this is for a bad unit that has been confirmed to be less than 6 months old from manufacture. And on a one year warranty? Sound like Google just does not want to back it's warranty.This interaction is causing me to NEVER deal with a Google made product AGAIN. Nothing but lack of support - and horrible customer service response. Oh, and be warned that the call answers screen calls to the manager and insist n handling the problems themselves.",
+        "property2": "WORST Customer Service Experience I have experienced!"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Doesn't work, no customer support"
+      },
+      {
+        "property1": "I've been using chromecast since the beginning. I use it for Netflix.. It didn't work, then it worked, now it doesn't work again 12/14/2013 latest upgrade.. absolutely sucks for netflix. So disappointing.. I'm not a very critical user but I must say that I am giving up on Chromecast. It just isn't worth the headache. I have no confidence when it will work, when I have to reset it, when its the network.. I mean.. who knows.. Waste of 35 dollars. I am confident it will get better but I'm not waiting for it.",
+        "property2": "Bugs, bugs, bugs"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Needs More Support Before Useful"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Too restrictive, trapped in Googleworld... my $35 worth."
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Buy a Roku instead"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Very Limited Use"
+      },
+      {
+        "property1": "This thing is a useless piece of junk. It only works about half of the time and when it does work it skips and buffers like crazy. It is located about 3 feet from my router and yet is almost never detected. It has been set up properly and I get the same results from my phone, iPad, and laptop. I can't believe that google would release a product so heinous! I would rather smash it to pieces for its insolence than return it! Hurumph!",
+        "property2": "Shame on you google!"
+      }
+    ]
+  }
+}

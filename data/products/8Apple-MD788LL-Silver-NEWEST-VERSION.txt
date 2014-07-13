@@ -1,0 +1,74 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 415,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 18:13:25 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Apple iPad Air MD788LL/A (16GB, Wi-Fi, White with Silver) NEWEST VERSION (Personal Computers)",
+        "property2": "If you already have the iPad 4; keep it!"
+      },
+      {
+        "property1": "You may be thinking to yourself right now that 16 GB is right for you. And if you are using this for the sole purpose of creating, sharing, and presenting documents, maintaining your schedule, and taking a few photos. That's great. However, I tend to watch a few movies, but considering that I only actually have 12 GB of memory after software, large apps like pages and keynote, books, and few photos (less than 100) are taken into account, I can only put one on at a time, which gets a little old after awhile. The fact that apply doesn't allow expanded memory like memory cards still frustrates me to this day because you never know what you may want to put on your tablet in the future, and this leaves you no room to breathe. I hate the restrictions and the only real reason why I decided to get the IPad over the Samsung Note series is because the app store is incredible and much more versatile. I will certainly NEVER get another IPhone after having a Samsung galaxy unless Apple introduces the expanded memory.Anyway, moral of the story: Ipad Air is sleek, light, fast, functions well, has a great display and app store (that just being Apple in general). And if you REALLY have your heart set on this, I would genuinely think twice about the memory you choose. I don't regret buying this, it has served me in more ways than one. I just wish I had bounced for the 32 GB.",
+        "property2": "Great piece of machinery, amazing app store, sucky memory."
+      },
+      {
+        "property1": "I need to start by saying that I am an Apple fan. I have tried to use Android and Windows, but I keep coming back to the Apple world. I just like Apple's products. I got an iPad Mini for Christmas, but decided to trade up to the Air because I wanted a larger screen. I use my Air mostly for internet use. I am doing online college courses, and find that I can access my coursework easily using the Air. I also love how I can load the Amazon Video app and watch Prime on my iPad or Airplay to my Apple TV. I love that I can sync my iPad to my computer for backups and to organize music and videos. Now for the caveat. Apple needs to increase the basic memory for these. I could not afford to pay another $100 for the 32 gb Air. 16 gb does not last very long! I want more memory!! The available memory is more like 11-12 gb because the OS takes up the rest of the space. Apple may never put a memory card slot in the iPads - they should, they could make it proprietary and sell them for a good markup, (not $100!) then they would make more money on volume sales! At the least, they should start iPads with 32 gb.",
+        "property2": "Super tablet with one caveat"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air ME898LL/A (128GB, Wi-Fi, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-ME898LL-128GB-NEWEST-VERSION/dp/B00G2XSL3C/ref=cm_cr_pr_orig_subj/179-5843700-9223624"
+        },
+        "property2": "Reliable and fast..."
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD790LL/A (64GB, Wi-Fi, White with Silver) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD790LL-Silver-NEWEST-VERSION/dp/B00G2Y77RW/ref=cm_cr_pr_orig_subj/179-5843700-9223624"
+        },
+        "property2": "Apple ipad air 64 gb"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD786LL/A (32GB, Wi-Fi, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD786LL-Wi-Fi-NEWEST-VERSION/dp/B00G2X1VIY/ref=cm_cr_pr_orig_subj/179-5843700-9223624"
+        },
+        "property2": "Great Product."
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD786LL/A (32GB, Wi-Fi, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD786LL-Wi-Fi-NEWEST-VERSION/dp/B00G2X1VIY/ref=cm_cr_pr_orig_subj/179-5843700-9223624"
+        },
+        "property2": "Great Deal"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD785LL/A (16GB, Wi-Fi, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD785LL-Wi-Fi-NEWEST-VERSION/dp/B00G2TK76A/ref=cm_cr_pr_orig_subj/179-5843700-9223624"
+        },
+        "property2": "not an iFan but starting to love it"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MF004LL/A (32GB, Wi-Fi + Verizon, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MF004LL-Verizon-NEWEST-VERSION/dp/B00G4EWIKG/ref=cm_cr_pr_orig_subj/179-5843700-9223624"
+        },
+        "property2": "Favorite purchase of 2014!"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD785LL/A (16GB, Wi-Fi, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD785LL-Wi-Fi-NEWEST-VERSION/dp/B00G2TK76A/ref=cm_cr_pr_orig_subj/179-5843700-9223624"
+        },
+        "property2": "Too good"
+      }
+    ]
+  }
+}

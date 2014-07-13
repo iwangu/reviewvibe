@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 436,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 19:54:06 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Bad Product Connection keeps dropping for Chrome browser cast"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Useless. Extremely limited"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "What is this?"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Does NOT work with Verizon Fios"
+      },
+      {
+        "property1": "I've had the Chromecast for about a week now, and despite a few little hiccups have been incredibly impressed and pleased. Considering the price, I feel like this is a no-brainer purchase if you enjoy streaming shows from Netflix, clips on Youtube, and/or movies out of Google's store.Setup was a little more complicated than I was expecting. I have a dual-band router, both with the same hidden SSID. The Chromecast has an option to enter in your hidden SSID so it seemed like there'd be zero issue. Entered it correctly, verified, and it just couldn't find my network. I went back and tried a few times, thinking I must have been fat-fingering a button. No luck. I un-hid my 5ghz SSID, tried connecting, no luck. It only worked after exposing the SSID on both 2.4 and 5ghz bands before it would connect. Somewhere on the device page it says it does work with 2.4ghz hidden SSIDs, and I may try re-naming that band and hiding the 5ghz again. But I hear that's not actually too terrible a thing to break through if somebody's actually seeking to get in so I might not even worry about it.Anyway, once setup, it's worked great with my HTC One. Finding content through Netflix, Google Play, and Youtube on your phone is so much more convenient and intuitive than searching on the apps on your TV, or 360, etc. Basically - any box where you have to fumble with a remote to do searching and navigation, this is better than. You kick off a movie/clip, cast it to your TV, and the phone is free to do whatever else you want while the content plays. At any time you can get back into the casting app and pause/resume content. Super slick.I tried out the casting extension on my chrome browser, and it works about like you'd expect. You can cast a tab, and all content on that tab is sent to your TV. Works reasonably well for me, and I can definitely see the use cases (photo sharing, watching things you can't get to through the other mediums you have). I tried streaming a movie through my Amazon Prime account, and while it worked, the audio wasn't 100% synced up. And of course if you want it full-screen, you have to give up your laptop while the movie plays. Also - my laptop (retina MBP) got really hot, and really noisy. My recommendation would be to not expect to use this feature on a regular basis for streaming content.One other downside I noticed is that while casting a netflix movie, the netflix screen takes up the entirety of my lock screen. I received a phone call, and the phone was ringing but the caller information was missing, as were the 'Answer' and 'Ignore' buttons. Had to \"back\" out of the netflix info (which is just weird on the lock screen to have to do) before they showed up. Google Play Movies did not have this problem, yet still allowed you to pause/resume from the lock screen.Anyway - I really can't recommend this thing enough. It isn't perfect, but it's also not expensive enough to expect perfection. If you like Netflix, Youtube, and Google Play content to be on your TV, this is the easiest and cheapest way to get it there. If you have other ways to get it there, this is still a worthy investment as it's infinitely more pleasing to use than a TV-remote based application.Very, very pleased.",
+        "property2": "Probably the best $35 I've ever spent"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Don't buy it for screen casting the browser."
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Dear Chromecast: I don't think we're compatible. And here's why. NO HULU PLUS. No love, me. At least it didn't catch fire."
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Won't connect"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Not Worth The Hassle"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Buy The ROKU"
+      }
+    ]
+  }
+}

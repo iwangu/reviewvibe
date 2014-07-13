@@ -2,6 +2,7 @@ from textblob import TextBlob
 import time
 import io
 import urllib 
+import pickledb
 import json 
 import requests
 from pprint import pprint
@@ -51,6 +52,45 @@ def isbogus(mystring):
     #print  mystring
     return False 
 
+def grabkimono2PickleDB(products,grabNoOfPages): 
+   #products = ["http://www.amazon.com/Apple-MD199LL-A-TV/dp/B007I5JT4S", "http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE"]  for s in products:
+
+    db = pickledb.load('data.db', False) 
+
+    for pURL in products:
+        productName = pURL.split("/")[3] 
+        idOfProduct = pURL.split("/")[5]  
+        for x in range(1,grabNoOfPages+1):
+            api = "https://www.kimonolabs.com/api/b6mvxgxs?apikey=68d2fb6d1d7f5448161a279564ed03fc" +"&kimpath1=" + productName + "&kimpath2=" + "product-reviews" + "&kimpath3=" + idOfProduct + "&kimpath4=" + "ref=cm_cr_pr_top_link_"+ str(x) + "&pageNumber="+ str(x)
+            print api
+
+            time.sleep(1) # delays for 5 seconds
+            results =""
+            print results 
+         
+            r = requests.get(api)
+            with open("tmp.txt", 'wb') as fd:
+                for chunk in r.iter_content(10):
+                    fd.write(chunk) 
+
+            fpath = "tmp.txt"
+            f = read(fpath) 
+            data = [{"price": 1, "name": "xxx", "comment"}]
+            comments = []
+            for comment in f['results']['collection1']: 
+                txt =""
+                try: 
+                    txt = comment['property1']['text'].strip()
+                except:
+                    txt = comment['property1'].strip()
+
+                if(isbogus(txt)):
+                    continue
+
+                comments.append(txt)
+            
+            db.set(pURL, 'value') 
+
 def parseFiles(pLink,grabNoOfPages):        
 
     pName = pLink.split("/")[3] 
@@ -60,7 +100,7 @@ def parseFiles(pLink,grabNoOfPages):
     total = 0.0
     for counter in range(1,grabNoOfPages+1):
 
-        fpath = "data/" + str(counter) + pName + ".txt"
+        fpath = "data/products/" + str(counter) + pName + ".txt"
         f = read(fpath) 
 
         for comment in f['results']['collection1']: 
@@ -101,7 +141,7 @@ def parseFilesSentences(pLink,grabNoOfPages):
 
     for counter in range(1,grabNoOfPages+1):
 
-        fpath = "data/" + str(counter) + pName + ".txt"
+        fpath = "data/products/" + str(counter) + pName + ".txt"
         f = read(fpath) 
 
         for comment in f['results']['collection1']: 
@@ -142,42 +182,28 @@ def parseFilesSentences(pLink,grabNoOfPages):
     res.append(neutBin)
     return res
 
-def compareAndPrint(p1,p2,pNo1,pNo2):
-    pName   = p1.split("/")[3] 
-    pName2   = p2.split("/")[3]   
-
-    s1=parseFilesSentences(pName,pNo1)
+def compareAndPrint(p1,p2,pNo1,pNo2): 
+    s1=parseFilesSentences(p1,pNo1)
     total1 = s1[1] + s1[2] + s1[3] 
 
-    s2=parseFilesSentences(pName2,pNo2) 
+    s2=parseFilesSentences(p2,pNo2) 
     total2 = s2[1] + s2[2] + s2[3] 
 
     #nachjustieren
     diff = (total1 - total2)
     if abs(diff) > 30:
-        s2 = parseFilesSentences(pName2,pNo2 + int(diff/70))
+        s2 = parseFilesSentences(p2,pNo2 + int(diff/70))
         print "nachjustierung: " + str(int(diff/70))
 
-    html = chartFunctions.getHTMLFromDataDonut(s1,s2)
+    #html = chartFunctions.getHTMLFromDataDonut(s1,s2)
     #html = "<br>"
-    #html += chartFunctions.getHTMLFromDataBarChart(s1,s2)
-    f = open(pName + '-vs.-' + pName2 + '-chart.html','w')
+    html = chartFunctions.getHTMLFromDataBarChart(s1,s2)
+    f = open("data/charts/" + str(pNo1) + "to" + str(pNo2) + p1.split("/")[3] + '-vs.-' + p2.split("/")[3] + '-chart.html','w')
     f.write(html) # python will convert \n to os.linesep
     f.close() # you can omit in most cases as the destructor will call if
     print "+++++++++++DONE+++++++++++++++++++++"
+    return html
 
-def parseTop100Files(fpath):  
-    l = []
-    f = read(fpath) 
-
-    for i in f['results']['twenty']: 
-        txt =""
-
-        txt = i['title']['href'].strip()
-        txt = txt.split("\n\n\n\n\n\n\n")[1] 
-        l.append(txt)
-        #pprint(txt)  
-    return l
 
 def goParse100():
     tmp = parseTop100Files("data/top100_11.07.json")
@@ -191,23 +217,24 @@ def goParse100():
         res.append(x)
     return res
 
-#p = ["http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE/ref=zg_bs_electronics_1/184-6199652-9954344","http://www.amazon.com/Roku-3-Streaming-Media-Player/dp/B00BGGDVOO/ref=zg_bs_electronics_7/184-6199652-9954344"]
+p = ["http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE/ref=zg_bs_electronics_1/184-6199652-9954344","http://www.amazon.com/Roku-3-Streaming-Media-Player/dp/B00BGGDVOO/ref=zg_bs_electronics_7/184-6199652-9954344"]
 
 #grabkimono(p)
 
 #compareAndPrint(p[0],p[1],10,10)
 
-#res = goParse100()
-#for x in res:
-#    compareAndPrint
+def jsonTop100ToRankAndUrl():
+    l = parseTop100Files("data/top100_11.07.json") 
+    with open("data/rankAndUrlTop100_11.07.json", 'w') as outfile:
+        json.dump(l, outfile)
 
 def compareAll():
     for x, left in enumerate(res):
         print x
         print left
 
-
-
+#parseTop100Files("data/top100_11.07.json") 
+#jsonTop100ToRankAndUrl()
 #products = ["http://www.amazon.com/Apple-MD788LL-Silver-NEWEST-VERSION/dp/B00G2Y4WNY/ref=sr_1_1?s=electronics&ie=UTF8&qid=1404912902&sr=1-1&keywords=ipad+air","http://www.amazon.com/Google-Nexus-10-Wi-Fi-only/dp/B00ACVI202/"]
 #grabkimono()
 #print len( parseTop100Files("data/top100_11.07.json")[0])

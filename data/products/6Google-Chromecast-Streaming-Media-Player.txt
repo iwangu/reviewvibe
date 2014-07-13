@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 433,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 19:53:55 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Buy this if you have an older tv and want apps"
+      },
+      {
+        "property1": "I ordered this the hour it went on sale on Amazon, and I'm glad I did, because not only did I make it under the cutoff to get the Netflix promotion (which really makes this a steal at $11) but I got it before it sold out and was at my door Friday. After having a few days to play with it, I can safely say this is one amazing device and really a smart move by Google.It comes in a nice little package with an HDMI extender (for those tight ports on your TV), Micro-USB cord, and wall adapter, as well as a little instruction booklet I didn't really look through. To set it up, you just plug it into your HDTV or A/V Receiver (I plugged it right into the front HDMI port of my Denon AVR-1613) then plug in the usb cord for power into your TV's, Receivers, or any other USB port close by (my A/V receiver has a USB port right next to the front HDMI port, you can also plug into the wall if need be). It immediately lights up and, provided your HDTV/ Receiver is setup with CEC (Consumer Electronics Control, allows HDMI to control the device) it'll change the input automatically and even turn on some TVs!Once it's on, you're greeted to nice looking setup screen, it tells you to go to a URL on your Mac/PC to download the small Chromecast application for setup. Once you start setup it actually connects your computer's wifi to connect direly to the Chromecast, this allows you to see what networks are available for the Chromecast to connect to. You can change the name of the Chromecast to whatever you want and select your local 2.4ghz wifi network (hopefully the next revision has 5ghz abilities). It takes a little bit to connect, but once it's on the network, YOU'RE DONE! Here comes the fun.So, the idea of this product is you can send Youtube and Netflix links to the Chromecast and it plays those videos on your TV in up to 1080p with 5.1 surround (surround only for Netflix right now), then your phone, tablet, computer acts as the remote control. However, this is just the beginning of what it can do. First off, you need to have Chrome installed on your computer (preferably the Beta or Dev version, I'll get to why in a minute), then install this extension to have the ability to mirror your chrome internet tabs to your TV: [...]With this extension installed, a button appears in the top right corner of your browser which gives you the ability to stream content on your browser to your TV in 720p max with a click of the mouse. There is a slight half second lag, but no worse than something like WiDi. You have options as well, streaming quality, zooming to fit, and browser re-sizing allow you to change the look depending on your preference and TV/Computer. When you click on the name of your chromecast, it immediately starts streaming and changes the input on your TV/Reciever, you see the tab you started streaming from and you can browse any site and have it mirrored, allowing you to watch Hulu, Vimeo, go to Facebook, anywhere you want on the web. With this, it only casts that one tab, so you can actually browse other tabs or windows on you computer and it won't change what's showing up on your TV, this can be great for watching Hulu in one tab on your TV, and checking facebook on your computer in another tab.Now, getting back to why you should have the Beta or Dev channels of Chrome installed on your computer, this gives you access to the extra Chromecast feature of FULL SCREEN MIRRORING, that's right, Chrome will stream your entire computer's screen. You can see your desktop, folders, and other applications in 720p right on your TV. To do this, you have to click on the little down-arrow in the right hand corner of the Chromecast extension, here you will see \"Cast current tab\", \"Cast entire screen (experimental)\" and the ability to toggle \"Audio mode\"* to stream the audio as well as video from your computer. Selecting entire screen does exactly that, this is obviously something google is still perfecting and testing, but it has worked very well for me so far. It does take a bit more performance from your computer and local videos do not play that smoothly just yet, but it's still a nice feature. You can also drag local videos into your browser and stream that tab, but that has its hiccups as well. This type of screen mirroring is in it's beta stages though, so I'm sure it will be improved upon, streaming videos from the movies app on your phone works much better. The fact that a $35 device like this has this capability is just amazing anyway, I'm very excited to see how it evolves from here.Streaming Netflix is a breeze, using either your phone, tablet, or computer, you can select a movie/show, and select to play on your chromecast. The beauty of this is that the video doesn't stream from your device, so it's not using resources or battery on your phone or computer, the Chromecast plays Netflix natively and your other device just acts as a remote control and you can even exit the app all together and it'll still keep playing on your TV. The chromecast button even shows up in the web browser version of Netflix, making it super easy to find and watch anything. If your family all uses the Netflix app it will stay synced with whatever is playing on the Chromecast and all devices can be used together as remotes, it won't kick anyone off. Netflix looks wonderful on the Chromecast, and if more developers take advantage of the Chromecast like Netflix did, we're in for something really special here (I'm looking at you Amazon Prime!!). Google didn't leave anyone out either, iOS devices have access to the same Netflix app control as Android users.Finally you can play your local music from your phone using the wonderful Google Play Music app, it streams directly to the Chromecast and can even pull songs from your Google Cloud. The album art shows up on screen and you can browse all your music and control it from your phone while it plays on the Chromecast. This is much better and easier than using bluetooth or just plugging your phone into your receiver. Pandora is supposed to add support very soon, so I'll update when that hits, I'm very excited about that and hopefully developers like Spotify will follow suit. Unfortunately, the music app does not allow multiple devices to queue music into a Chromecast playlist, the Youtube app does allow this for videos, and the Nexus-Q did allow this for music, so I'm hoping Google will add that ability very soon, but it's still good for playing a playlist on one device right now.One last note, the Chromecast does get VERY hot to the touch, supposedly this is normal and Google has acknowledged as such. There is a huge heat sink inside that goes right up against the plastic shell, be careful when handling after heavy usage. I think it is designed to handle extreme heat, so you shouldn't worry about the device, but just thought I'd mention it.So, to wrap up, this is one hell of a device for $35, and really should be a part of every living room, it just has so many capabilities and even more potential. Do yourself a favor, and pick one up, you won't be sorry, should make a great gift too!*UPDATE: The \"audio mode\" I referred to earlier is actually a feature that lowers video bandwidth in favor of increasing audio bandwidth when streaming for better quality and consistency when playing music from your browser. It DOES make your video extremely choppy, so if you want to watch video, un-check the \"audio-mode\" and and your stream will still play audio, but the video will be of a much better frame-rate. You can turn Audio on and off with the little speaker button that shows up when casting.",
+        "property2": "Unbelievable little device"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Really good when it works, but intermittently freezes"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Pleased"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Won't work with AMD video drivers"
+      },
+      {
+        "property1": "Was working great. Watched many shows, movies etc....Netflix, I actually subscribed just because I purchased this. Youtube was working great. Even rented a couple movies off of AMAZON. Then now, after a couple months it quits working correctly. All I get was like others stated a streaming icon buffering which timed out with message error playing video. First started with NETFLIX, and now just tonight started same with YOUTUBE. I will be looking into other alternatives.",
+        "property2": "Quit Working"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Works Sometimes"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Not as good as it looks"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Does one trick well; but doesn't actually display what's on your device; also a DNS issue."
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Google Customer Support really bad."
+      }
+    ]
+  }
+}

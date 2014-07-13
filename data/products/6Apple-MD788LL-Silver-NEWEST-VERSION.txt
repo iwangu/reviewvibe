@@ -1,0 +1,71 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 413,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 18:13:15 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD786LL/A (32GB, Wi-Fi, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD786LL-Wi-Fi-NEWEST-VERSION/dp/B00G2X1VIY/ref=cm_cr_pr_orig_subj/176-1130524-0082513"
+        },
+        "property2": "Fantastic iPad air"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MF532LL/A (32GB, Wi-Fi + Verizon, White with Silver) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MF532LL-Verizon-Silver-VERSION/dp/B00G4G16G6/ref=cm_cr_pr_orig_subj/176-1130524-0082513"
+        },
+        "property2": "Much better than my iPad 1."
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MF532LL/A (32GB, Wi-Fi + Verizon, White with Silver) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MF532LL-Verizon-Silver-VERSION/dp/B00G4G16G6/ref=cm_cr_pr_orig_subj/176-1130524-0082513"
+        },
+        "property2": "Lives up to the hype"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD785LL/A (16GB, Wi-Fi, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD785LL-Wi-Fi-NEWEST-VERSION/dp/B00G2TK76A/ref=cm_cr_pr_orig_subj/176-1130524-0082513"
+        },
+        "property2": "Awesome"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MF529LL/A (32GB, Wi-Fi + AT&T, White with Silver) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MF529LL-Silver-NEWEST-VERSION/dp/B00G2YEKOA/ref=cm_cr_pr_orig_subj/176-1130524-0082513"
+        },
+        "property2": "iPad air crashes ! ! !"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MF015LL/A (128GB, Wi-Fi + AT&T, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MF015LL-128GB-NEWEST-VERSION/dp/B00G2YDKK0/ref=cm_cr_pr_orig_subj/176-1130524-0082513"
+        },
+        "property2": "NICE !!"
+      },
+      {
+        "property1": "If you are on this site, you are trying to decide whether to buy the iPad or another tablet such as Samsung or other device. I mentioned Samsung because I love their phones, tv's, etc. However, when comparing the note to the iPad, I opted for the iPad. One very big reason is I love to buy, rent, download movies to watch. Having an iTunes account makes this so very simple. Also, I have a ton of iTunes credit (I always ask for iTune gift cards whenever the occassion arises). In addition to iTunes, I love Pages. When I got this app, it was free! However, if you do a lot of word processing, you might want to invest in this much needed addition. The great thing about Pages is you can send as a PDF or Word doc via email.Some are trying to decide if they should buy a 16, 32, 64, etc. Speaking from experience, a 16 will not be enough for must adults, but would be fine for a child. I know you can store in the \"cloud\". However, you have to have a wifi in order to retrieve from the \"cloud\" unless you have the iPad with a cellular service (which to me, is a waste). So, having your documents available whenever needed is a plus. Therefore, a minimum of 32 would be great.All said, I love gadgets and technology. I love having the latest, and that is why with each new model, I will upgrade. However, I think this iPad air will be mine for many years - of course I say that until the next iPad air comes out with the finger print scanner and I will tell myself, \"must have\".If you own one, enjoy! If you are contemplating purchasing, make the plunge (you can return it if not satisfied to most places including Amazon).",
+        "property2": "Lover the iPads"
+      },
+      {
+        "property1": "I had the retina mini which was great but too small for web browsing comfortably for extended periods. I exchanged it for the Air.I'm much happier with the Air. The extra screen space is more than worth it to me. No more panning and scrolling and zooming endlessly with the mini, that is over with the Air. The Air also plays video and music beautifully. I actually felt the mini was absolutely perfect form factor for tv, movies, and e books. The Air does all these things great too, but mini did them better, in my view. Sigh.....so long, little dude.I had an ipad 4 from feb to yesterday. Ten months. It was great. I sold it easily on Craig's list for $320. I wish I priced it higher. I could have likely gotten $350 for it. In any event, I paid $180 to use it for ten months or eighteen dollars a month. Fifty cents per day. I can live with that.Love my new ipad Air. It is sleek, light and attractive. Easy to hold with one hand and I have small hands. I have known girls shorter than me who had bigger hands than me.I recommend the Air. A superb investment. Whatever ur needs. If you read. Or watch tv and movies, or need a great camera, organizer, music player. It is a great product. Just go get it. Sell other stuff if u have to. You will not regret.",
+        "property2": "Perfection"
+      },
+      {
+        "property1": "This review is from: Apple iPad Air MD788LL/A (16GB, Wi-Fi, White with Silver) NEWEST VERSION (Personal Computers)",
+        "property2": "The Item was not as described. It was a used item re-packed."
+      },
+      {
+        "property1": "The iPad Air is a fantastic tablet. Just what I need. Thinner and lighter than my sadly broken iPad 3, but now that I have had a chance to really use it, I think I probably would have upgraded even if I didn't break my last iPad. There are not too many changes (and there don't have too be) but the deal makers are the new and lighter design and the the 64-bit A7 chip that will pave the way for better applications and performance. No touch ID which is ok because I don't like having a pass code on my iPad anyways where on the 5S it is greatly appreciated. Same fantastic resolution as its past 2 models but now has better power to push them all. Gaming and productivity apps look and feel great and I can use them to do everything I need.",
+        "property2": "Just what I need!"
+      }
+    ]
+  }
+}

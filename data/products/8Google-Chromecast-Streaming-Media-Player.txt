@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 435,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 19:54:02 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "So far I have an ok experience with chromecast. Issues,From the package device was not working. I had to follow the troubleshooting steps.If I make it full screen it becomes full screen on tv, but then I can't use the laptop, else I have to minimize.Video streams on both laptop and chromecast. If chromecast is gonna do it directly from the URL then stop streaming on the browser. Now I have to hide my laptop monitor somewhere.Audio on chormecast seems to have a bit of lag compared to laptop.Streaming is just normal not great even with the booster that comes with the package.I used it once kept it attached to the tv. When played after 2 days I had to redo all the troubleshooting steps once again to get it working. This is a show stopper for me.I am not sure these are all issues with the device I have, but so far I am not very happy with the product.",
+        "property2": "Not that great experience"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "A Key Piece to \"Cutting the Cord\" to Monthly Cable Bills!"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Highly disappointed!!!"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Very Disappointing. Doesn't work on 720p. Nice Concept Horrible Execution!"
+      },
+      {
+        "property1": "What a waste... Tried to cast video from my laptop (HP Envy I7 core) to my LG LED, and could not get a video to show even at 480P. When I attempted to go to full screen, the screen simply blacked out. The audio seemed fine, so if you want to listen to a movie, I guess it would be a good buy.",
+        "property2": "If you have $35 to waste, buy this!!!"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Worked fine until the update"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Check out the Avia Media Player"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Excellent product"
+      },
+      {
+        "property1": "Finally got my hands on one. My first impression- \"This is exactly what I didn't know I had been searching for!\" I have tried many other device-to-tv streaming services, but most have failed to impress. All of them seemed to be unreasonably priced for the limited amount of things they could do, and the cheap ones like the Android Smart TV Sticks just never ran as smoothly as I had hoped.The Chromecast is as easy to use as it looks. On the inside of the box, there is a 3-step process: 1) Plug it in, 2) Switch input, and 3) Set it up. Within minutes, I had fired up Arrested Development on my Galaxy S4, and was able to pause it from my iPad. Beautiful.I love how Chromecast streams from the cloud rather than the device, so it frees you up to use your device while still watching video.I tried out the Chrome Browser as well. Google is still currently working on getting this to run smoother, but as is, it's a little laggy with video a little choppy. Not quite as smooth as Netflix or Youtube, but still doable. I'd imagine the fact that it's still in beta has something to do with it...Currently we can only stream content from Youtube, Netflix, Chrome (beta), and Google Play. However, from the remarks made in the conference, I have confidence we are going to see many more amazing things that this little, affordable device will be able to offer us.Bottom line: Unbeatable Price for an Unbeatable ProductUpdate: I have now used it with my MacBook, iPad, and Galaxy S4, and it runs very smoothly with each of these devices. I was curious, so I tried it on a couple of different TV's and also with my computer monitor. I found that I only had to set it up once on my network, and after that, all I had to do was plug it in and hit play on my device! When unplugging it from the monitor, I didn't hit pause on my phone just to see how the dongle could handle it. Netflix instantly paused. When I plugged it back into the TV, all I had to do was hit play, and it resumed where I had left off. Brilliant.",
+        "property2": "Finally Found What I Have Been Looking For"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Not Ready for PRIME TIME. Google TV commercials are misleading."
+      }
+    ]
+  }
+}

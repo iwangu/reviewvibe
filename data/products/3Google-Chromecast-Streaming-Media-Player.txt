@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 430,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 19:53:42 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Buy It if you NEED It...Read review"
+      },
+      {
+        "property1": "OMG..Poor Customer ServiceNo phone numbers to be called for customer support or technical support.Customer support only through email and after after one day.I could not get connected to my TV.And contacted customer support.To and forth emails for 1 month.Finally I had to return the chromecast device back to best buy for store credit.",
+        "property2": "Very poor customer service"
+      },
+      {
+        "property1": "I love Chromecast. I can find things on You Tube or Netflix and watch them all day long on the T.V. I wish it worked with Amazon's Prime Video though. Right now it is very limited in what it will work with. I'm hoping some day it will work with Amazon's videos as it is something sold on Amazon's site, I would expect it to be compatible with their products. My kids bought this for me for Christmas and I absolutely love it. The only reason 4 stars instead of 5 is because it doesn't work with some of the things I'd like it to. I can cast a webpage or cast the desktop (experimental) to the T.V. but there is quite a bit of lag and movies and videos don't work well when viewed in this manner on the T.V.",
+        "property2": "Works well"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Nice but limited"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Fix the bugs!"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Product not working any more"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "It works...barely"
+      },
+      {
+        "property1": "Just wanted to point out to those wondering that this device does indeed work with Kindle Fire HD. Netflix, Youtube, and other features work.",
+        "property2": "Works with Kindle Fire HD"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "A Good Start, But Lots of Room For Improvement"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Rip off money making criple-ware scam for google."
+      }
+    ]
+  }
+}

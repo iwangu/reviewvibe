@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 421,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 18:13:48 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "Went through three of those units: two refurbished and finally one new. All of them suffer the same issues that ultimately were a deal-breaker:1) Wi-Fi signal is weaker than any other device I compared to (used a myTouch4G phone and Samsung Galaxy Note for comparison + Network signal info and SpeedTest apps). Consistent weaker signal using both bands. Video streaming suffers as a result, sometimes to a point where it is unbearable.2) Overall battery life suffers from driving such a high-resolution screen, certainly an overkill for a tablet.3) Battery charging is the worst nightmare as mentioned by so many other reviewers. You need ~10 hours to fully charge it using the standard charger. I haven't tried POGO charger, but from what I read the difference in charging rates is not that dramatic.4) That's not all. If there is any activity on the tablet, the USB charger can't really keep up, so the best you can hope for is that you battery will stop discharging, but working and charging at the same time is not going to happen. If there is a lot of CPU load, the battery keeps discharging even with the charger plugged in, just at a slower rate.Ended up returning all units and getting a TF700 instead, so far everything works fine. The design is not on par with Google Nexus, but the performance is great.Alas, Google Nexus = back to the drawing board.",
+        "property2": "Miserable battery charging time and Wi-Fi range"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Watch out for previously used when ordering 'new'!"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Do NOT Order This Item From Amazon!"
+      },
+      {
+        "property1": "instead of a general review, I am going to focus on what I observed- yes, the speakers are pretty good- the screen is very bright, actually too bright when it is 100%. I set it to the lowest level, still good enough for indoor use, plus saves battery. of course, don't let the any light above reflects on the screen-- for those who are techs and/or pay attention to details, the specs may be confusing. google says it is ARM15 and 2GB ram, but the system only shows ARM7 and 1.1GB. I was worried that the pad has some problem or whatever, but it is not the case.the ram IS 2GB, just that the system reserved 900MB to the display, so only about 1.1GB left. I do hope that I can make it to reserve less. unless you are using some graphic intensive apps, I don't think you need 900MB for it, waste of memoryfor the CPU, it IS ARM15, only that it doesn't normal show unless you use apps like cpu-z, which shows the CPU architecture. the ARM7 it shown is kernel architecture- since it is from google, so you are out of luck on most of the nice samsung features. well, you can get a replacement for multiview, the sidebar, but multi window won't do, only full screen.- and, I don't know if it is a new pad, or because of the specs, but the reaction from the pad is pretty fast",
+        "property2": "good tablet for your money"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Very Good Tablet"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Just \"wow\"!!"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Only lasted 4 months!"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Gorgeous tablet! Overall impressed with the Nexus 10."
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Great Tablet"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Best tablet out there"
+      }
+    ]
+  }
+}

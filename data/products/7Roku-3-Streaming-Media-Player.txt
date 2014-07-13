@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 444,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 19:54:45 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Absolutely an excellent device and a solid upgrade from previous generations."
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Beware"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "One problem after another"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Dual Band Wireless & USB port"
+      },
+      {
+        "property1": "I have 3 different roku models and only the roku 3 has a problem with staying on the networkonce I set up the other ones to the network I have never had to do it again even if the internet went downI have to reset the roku 3 it up almost every daylike it is new and sometimes more sometimes in the middle of watching a movie I have contacted roku customer service several times and what a waste of time they seem to be unaware of the problem even though it is all over the internetI find that hard to believe and no solutions to be offered that workedit does stream faster then my older ones when working but this constant network loss I must give it a one starIf I could give it a zero star I wouldand after 90 days they will not talk to you unless you buy their extended plan they will chat and email you avoid this model at all coststill having to unplug this unit all the time to restart it check the site about losing NETWORK or worse staying on the network but you can hear sound but not see the anything but content not authorizedUPDATE 1/14 on the roku support site it say that being close to other streaming devices cordless phones or microwaves could affect this unit from staying connected to the network HELLO IS THAT NOT A NORMAL IN A LOT OF HOUSES",
+        "property2": "roku 3 keeps losing network roku site say microwaveother streaming devices and phone could disconect unit from network"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Hysterically fun and cheap, too!"
+      },
+      {
+        "property1": "First off I originally bought this to replace cable. Too expensive and was looking for a cheap alternative. Roku 3 was the best investment I have made at only $99. Quick, easy set up that my grandma could do, plus the easy to use remote. The channels are just what I want, esp. Netflix and Pandora.DEFINITELY recommend!",
+        "property2": "No need to buy cable anymore!"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "The Roku I was waiting for!"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Greatly improved speed and user interface over previous Roku devices"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "A good enough compromise."
+      }
+    ]
+  }
+}

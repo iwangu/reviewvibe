@@ -1,0 +1,129 @@
+INFO:werkzeug: * Running on http://127.0.0.1:81/
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 14:51:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 14:51:43] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 14:51:46] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FGoogle-Chromecast-Streaming-Media-Player%2Fdp%2FB00DR0PDNE%2Fref%3Dzg_bs_electronics_1%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FKindle-Paperwhite-Ereader%2Fdp%2FB00AWH595M%2Fref%3Dzg_bs_electronics_2%2F184-6199652-9954344 HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Running on http://127.0.0.1:81/
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 14:57:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 14:57:43] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 14:57:53] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FGoogle-Chromecast-Streaming-Media-Player%2Fdp%2FB00DR0PDNE%2Fref%3Dzg_bs_electronics_1%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FRoku-3-Streaming-Media-Player%2Fdp%2FB00BGGDVOO%2Fref%3Dzg_bs_electronics_7%2F184-6199652-9954344 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:04:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:04:31] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:04:36] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FGoogle-Chromecast-Streaming-Media-Player%2Fdp%2FB00DR0PDNE%2Fref%3Dzg_bs_electronics_1%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FRoku-3-Streaming-Media-Player%2Fdp%2FB00BGGDVOO%2Fref%3Dzg_bs_electronics_7%2F184-6199652-9954344 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:07:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:07:40] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:07:47] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FGoogle-Chromecast-Streaming-Media-Player%2Fdp%2FB00DR0PDNE%2Fref%3Dzg_bs_electronics_1%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FRoku-3-Streaming-Media-Player%2Fdp%2FB00BGGDVOO%2Fref%3Dzg_bs_electronics_7%2F184-6199652-9954344 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:10:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:10:51] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:10:54] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FKindle-Paperwhite-Ereader%2Fdp%2FB00AWH595M%2Fref%3Dzg_bs_electronics_2%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FKindle-Fire-HD-Display-Wi-Fi%2Fdp%2FB00C5W16B8%2Fref%3Dzg_bs_electronics_3%2F184-6199652-9954344 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:10:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:10:59] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:11:16] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FGoogle-Chromecast-Streaming-Media-Player%2Fdp%2FB00DR0PDNE%2Fref%3Dzg_bs_electronics_1%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FRoku-3-Streaming-Media-Player%2Fdp%2FB00BGGDVOO%2Fref%3Dzg_bs_electronics_7%2F184-6199652-9954344 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:27:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:27:21] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:27:29] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FGoogle-Chromecast-Streaming-Media-Player%2Fdp%2FB00DR0PDNE%2Fref%3Dzg_bs_electronics_1%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FRoku-3-Streaming-Media-Player%2Fdp%2FB00BGGDVOO%2Fref%3Dzg_bs_electronics_7%2F184-6199652-9954344 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:28:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:28:42] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:29:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:29:53] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:81/
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:30:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:30:28] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:31:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:31:10] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:31:12] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FGoogle-Chromecast-Streaming-Media-Player%2Fdp%2FB00DR0PDNE%2Fref%3Dzg_bs_electronics_1%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FRoku-3-Streaming-Media-Player%2Fdp%2FB00BGGDVOO%2Fref%3Dzg_bs_electronics_7%2F184-6199652-9954344 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Running on http://127.0.0.1:81/
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Running on http://127.0.0.1:81/
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:47:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:47:39] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 15:47:41] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FGoogle-Chromecast-Streaming-Media-Player%2Fdp%2FB00DR0PDNE%2Fref%3Dzg_bs_electronics_1%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FRoku-3-Streaming-Media-Player%2Fdp%2FB00BGGDVOO%2Fref%3Dzg_bs_electronics_7%2F184-6199652-9954344 HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:81/
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\app.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\app.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\app.py', reloading
+INFO:werkzeug: * Running on http://127.0.0.1:81/
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:47:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:47:01] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:47:03] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FGoogle-Chromecast-Streaming-Media-Player%2Fdp%2FB00DR0PDNE%2Fref%3Dzg_bs_electronics_1%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FRoku-3-Streaming-Media-Player%2Fdp%2FB00BGGDVOO%2Fref%3Dzg_bs_electronics_7%2F184-6199652-9954344 HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Running on http://127.0.0.1:81/
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Running on http://127.0.0.1:81/
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:47:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:47:59] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:48:00] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FGoogle-Chromecast-Streaming-Media-Player%2Fdp%2FB00DR0PDNE%2Fref%3Dzg_bs_electronics_1%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FRoku-3-Streaming-Media-Player%2Fdp%2FB00BGGDVOO%2Fref%3Dzg_bs_electronics_7%2F184-6199652-9954344 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:48:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:48:15] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:48:16] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FGoogle-Chromecast-Streaming-Media-Player%2Fdp%2FB00DR0PDNE%2Fref%3Dzg_bs_electronics_1%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FRoku-3-Streaming-Media-Player%2Fdp%2FB00BGGDVOO%2Fref%3Dzg_bs_electronics_7%2F184-6199652-9954344 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:48:19] "GET /sfr HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\app.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\app.py', reloading
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:48:29] "GET /sfr HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:48:44] "GET /sfr HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:48:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:48:48] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FGoogle-Chromecast-Streaming-Media-Player%2Fdp%2FB00DR0PDNE%2Fref%3Dzg_bs_electronics_1%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FRoku-3-Streaming-Media-Player%2Fdp%2FB00BGGDVOO%2Fref%3Dzg_bs_electronics_7%2F184-6199652-9954344 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:48:49] "GET /data/charts1to1Google-Chromecast-Streaming-Media-Player-vs.-Roku-3-Streaming-Media-Player-chart.html HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\app.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:49:26] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FGoogle-Chromecast-Streaming-Media-Player%2Fdp%2FB00DR0PDNE%2Fref%3Dzg_bs_electronics_1%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FRoku-3-Streaming-Media-Player%2Fdp%2FB00BGGDVOO%2Fref%3Dzg_bs_electronics_7%2F184-6199652-9954344 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:49:27] "GET /data/charts/1to1Google-Chromecast-Streaming-Media-Player-vs.-Roku-3-Streaming-Media-Player-chart.html HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:50:08] "GET /data/charts/1to1Google-Chromecast-Streaming-Media-Player-vs.-Roku-3-Streaming-Media-Player-chart.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:50:16] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FGoogle-Chromecast-Streaming-Media-Player%2Fdp%2FB00DR0PDNE%2Fref%3Dzg_bs_electronics_1%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FRoku-3-Streaming-Media-Player%2Fdp%2FB00BGGDVOO%2Fref%3Dzg_bs_electronics_7%2F184-6199652-9954344 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:50:17] "GET /data/charts/1to1Google-Chromecast-Streaming-Media-Player-vs.-Roku-3-Streaming-Media-Player-chart.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:51:57] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FGoogle-Chromecast-Streaming-Media-Player%2Fdp%2FB00DR0PDNE%2Fref%3Dzg_bs_electronics_1%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FRoku-3-Streaming-Media-Player%2Fdp%2FB00BGGDVOO%2Fref%3Dzg_bs_electronics_7%2F184-6199652-9954344 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:52:15] "GET /data/charts/1to1Google-Chromecast-Streaming-Media-Player-vs.-Roku-3-Streaming-Media-Player-chart.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:53:44] "GET /static/1to1Google-Chromecast-Streaming-Media-Player-vs.-Roku-3-Streaming-Media-Player-chart.html HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\app.py', reloading
+INFO:werkzeug: * Running on http://127.0.0.1:81/
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:55:54] "GET /data/charts/1to1Google-Chromecast-Streaming-Media-Player-vs.-Roku-3-Streaming-Media-Player-chart.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:55:56] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FGoogle-Chromecast-Streaming-Media-Player%2Fdp%2FB00DR0PDNE%2Fref%3Dzg_bs_electronics_1%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FRoku-3-Streaming-Media-Player%2Fdp%2FB00BGGDVOO%2Fref%3Dzg_bs_electronics_7%2F184-6199652-9954344 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jul/2014 18:55:57] "GET /data/charts/1to1Google-Chromecast-Streaming-Media-Player-vs.-Roku-3-Streaming-Media-Player-chart2.html HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Restarting with reloader

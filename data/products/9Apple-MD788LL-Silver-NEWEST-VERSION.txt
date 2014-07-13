@@ -1,0 +1,71 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 416,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 18:13:29 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "The iPad Air is everything I wanted it to be. It is so much better than the older iPads. Its light and its easy to hold onto. If you're looking for a tablet, I'd definitely recommend the iPad air",
+        "property2": "THE BEST"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MF012LL/A (64GB, Wi-Fi + AT&T, White with Silver) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MF012LL-Silver-NEWEST-VERSION/dp/B00G2YFLXO/ref=cm_cr_pr_orig_subj/185-7042886-6181249"
+        },
+        "property2": "Gift for my Wife"
+      },
+      {
+        "property1": "I use my iPad for things that I could do with a laptop or iPhone, but it truly is more convenient for many of those tasks. I read, watch shows, browse the net, manage email, and take notes, to name a few things.",
+        "property2": "Rarely needed, always pleasant"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD789LL/A (32 GB, Wi-Fi, White with Silver) (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD789LL-Wi-Fi-White-Silver/dp/B00G2Y5YIG/ref=cm_cr_pr_orig_subj/185-7042886-6181249"
+        },
+        "property2": "Fully meets expectations"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD785LL/A (16GB, Wi-Fi, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD785LL-Wi-Fi-NEWEST-VERSION/dp/B00G2TK76A/ref=cm_cr_pr_orig_subj/185-7042886-6181249"
+        },
+        "property2": "Super"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD789LL/A (32 GB, Wi-Fi, White with Silver) (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD789LL-Wi-Fi-White-Silver/dp/B00G2Y5YIG/ref=cm_cr_pr_orig_subj/185-7042886-6181249"
+        },
+        "property2": "Great Ipad AIr. We love it."
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD790LL/A (64GB, Wi-Fi, White with Silver) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD790LL-Silver-NEWEST-VERSION/dp/B00G2Y77RW/ref=cm_cr_pr_orig_subj/185-7042886-6181249"
+        },
+        "property2": "apple i pad air"
+      },
+      {
+        "property1": "This review is from: Apple iPad Air MD788LL/A (16GB, Wi-Fi, White with Silver) NEWEST VERSION (Personal Computers)",
+        "property2": "Best yet"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD785LL/A (16GB, Wi-Fi, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD785LL-Wi-Fi-NEWEST-VERSION/dp/B00G2TK76A/ref=cm_cr_pr_orig_subj/185-7042886-6181249"
+        },
+        "property2": "Great product"
+      },
+      {
+        "property1": "The Apple ipad air is the best tablet made, period! It's light, fast and really easy to use. If you've got an iphone, you'llbe disappointed if you don't get an ipad instead of another brand.",
+        "property2": "Awesome."
+      }
+    ]
+  }
+}

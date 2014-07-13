@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 424,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 18:14:08 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "I purchased this tablet back in April 2013 from a local retailer. It runs all desired applications without issue, but when the battery drops below 50%, the wireless begins cutting out with frustrating regularity, around three or four times a minute for around two to five seconds each time. I purchased this tablet for use as a productivity and entertainment tool, and while it mostly succeeds at the former, it fails pretty miserably at the latter. I would be able to let this issue go if it didn't occur while the tablet is plugged in, but since the stock charger doesn't charge the device fast enough to keep up with the power output while watching streaming video, it persists until I stop using it and let it charge to 100%. I have attempted to reset the device to factory defaults several times, and I have spoken with Samsung support on three separate occasions. It was sent in for maintenance one time and the only actions performed according to the ticket were to reload the software, which essentially boils down to performing a factory reset again. Two more calls after that and they offered to let me send it back in for more maintenance since the manufacturer's warranty does not cover replacement. I should also mention at this point that my wireless network can be ruled out as I have a large number of other wireless devices of different types, including three other tablets from different manufacturers, that do not have any issues. After looking online for a while I noticed that while this problem doesn't occur on all Nexus 10 tablets, it occurs on enough of them that I would say your best bet would be to find a different Android tablet like the Nexus 7, or go with an iPad if you're on the fence about Android vs. iPad. I personally prefer Android tablets over iPads due to the more open developer platform, but for people just looking for a device for entertainment and productivity, either is really fine. It is important to mention that there are reports that Google is dropping Samsung as the manufacturer of the Nexus 10 and switching over to Asus, the company that produces the Nexus 7. I have heard very few complaints about the Nexus 7, so if you want the 10 inch Google sponsored tablet, wait until around Christmas of 2013 and buy the one manufactured by Asus.",
+        "property2": "Solid Tablet Brought Down By WiFi Issues"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Amazing Tablet......until it stopped working properly"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "No more sharing"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Good tablet"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Yes!"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Definitely a good tablet"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "After 5 months using, I can say this thing is fast"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Best Pad Made"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "One little glitch so far / UPDATE 60 days after purchase"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Dead in 60 days"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 443,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 19:54:40 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Great for someone who doesn't watch much tv :)"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Can you say SURROUND SOUND"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Good at first then stopped working"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "POOR PERFORMANCE when watching videos from external Hard Drive"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Excellent, but a few negatives you should know."
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Requires a credit card to use it"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Roku 3 stopped working after one month"
+      },
+      {
+        "property1": {
+          "text": "Help other customers find the most helpful reviews \nWas this review helpful to you? Yes\nNo \nReport abuse\n| PermalinkComment Comment (1)",
+          "href": "http://www.amazon.com/gp/voting/cast/Reviews/2115/R3UMU2122O1HV2/Helpful/1/ref=cm_cr_prvoteyn/184-0802709-9411863?ie=UTF8&target=aHR0cDovL3d3dy5hbWF6b24uY29tL3Jldmlldy9CMDBCR0dEVk9PL3JlZj1jbV9jcl9wcnZvdGVyZHIvMTg0LTA4MDI3MDktOTQxMTg2Mz9fZW5jb2Rpbmc9VVRGOCZwYWdlTnVtYmVyPTY&token=34F97B205303D44A15613250DDF32010344B896E&voteAnchorName=R3UMU2122O1HV2.2115.Helpful.Reviews&voteSessionID=184-0802709-9411863"
+        },
+        "property2": "I love my Rokus"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Great product but watch out!!!"
+      },
+      {
+        "property1": "My original review is below the edit.Stopped working after a few weeks. Would not connect to any channels.I decided to do a factory reset. After the reset, the remote would not work, so the product isn't useable at all.My original 3 year old Roku still works fine. Very disappointed in this model.Original review below.I've had the original Roku for 3 years. Just purchased the Roku 3. Both are great.Since I already had a Roku, and two Apple TVs, I purchased the new Roku solely for the Time Warner app. I wanted high definition channels without paying for a second Time Warner box. The App is excellent. My wife's Lifetime Channels come in on perfect HD. Many more. My one disappointment is that I can't get my local (cincinnati reds), games on this App. Those games are on Fox Sports. There are several Fox Sports Ohio channels, but they show soccer, high school football, etc.It is worth purchasing/upgrading, just for this App. A tiny box that can be nearly invisible, gives you a lot of worthwhile HD stations.Be very clear. This does replace your cable box and save you a monthly fee for that box. But - you will not get quite a few stations. It gets enough to make it very worthwhile.It also does not use internet bandwidth. It goes through your separate cable TV band,With the addition of this second Roku (my 3 year old Roku still is working perfectly), I now have boxed up both of my Apple TVs. They just don't compare to the Roku.Roku is really a dream come true, especially for Prime members. Free instant via Prime. I have a TIVO on my main TV, and though it gets Amazon Prime movies, it does not access free Prime movies. Roku does.",
+        "property2": "Stopped working. This is an edited review."
+      }
+    ]
+  }
+}

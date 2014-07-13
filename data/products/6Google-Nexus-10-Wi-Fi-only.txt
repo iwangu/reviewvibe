@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 423,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 18:14:02 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Better than my Ipad Air"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Excellent - Google has hit a home run with this unit and Samsung has really outdone themselves in design and manufacturing."
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Great product, awful vendor."
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Love it! Love it! Love it!"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Great Product"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Fast and snappy tablet!"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "MY HUSBAND IS GLUED TO THIS TABLET!!!!!!!!!!!!"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Google nexus 10"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Best tablet we've owned"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Nexus blows away the competition..."
+      }
+    ]
+  }
+}

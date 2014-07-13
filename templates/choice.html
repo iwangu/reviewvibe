@@ -11,6 +11,7 @@
     </head>
     <body>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script> 
 <script>window.jQuery || document.write('<script src="{{
   url_for('static', filename='jquery.js') }}">\x3C/script>')</script>
         <script type=text/javascript>
@@ -26,38 +27,45 @@
              });
             }); 
 
-                $(function() {
-    $('a#calculate').bind('click', function() {
-      $('#select2 option').each(function(i) {  
-  $(this).attr("selected", "selected");  
- });   
+          $(function() {
+            $('a#calculate').bind('click', function() {
+              $('#select2 option').each(function(i) {  
+            $(this).attr("selected", "selected");  
+          });   
 
-      $.getJSON($SCRIPT_ROOT + '/_select', {
-        a:  $('#select2').val()
-      }, function(data) {
-        $("#result").text(data.result);
-      });
-      return false;
-    });
-  });
-</script>
-<div>  
-  <select multiple id="select1">  
-   <option value="1a">1sss</option>  
-   <option value="2">2</option>  
-   <option value="3">3</option>  
-   <option value="4">4</option>  
+          $.getJSON($SCRIPT_ROOT + '/_select', {
+              a:  $('#select2').val()[0],
+              b:  $('#select2').val()[1]
+            }, function(data) {
+              $("#result").html("<a href=" + data.result + ">link</a>"); 
+            });
+            return false;
+          });
+          });
+    </script>
+<div>   
+  <select multiple id="select1">
+    {% for link in top100Urls %}
+        <option value="{{ link }}">{{ link | amazonLinkToProductName }}</option>
+    {% endfor %} 
   </select>  
   <a href="#" id="add">add &gt;&gt;</a>  
  </div>  
  <div>  
-  <select multiple id="select2"></select>  
+  <select multiple id="select2">
+
+        <option value="{{ top100Urls[0] }}">{{ top100Urls[0] | amazonLinkToProductName }}</option>
+ 
+
+        <option value="{{ top100Urls[3] }}">{{ top100Urls[3] | amazonLinkToProductName }}</option>
+    </select>  
   <a href="#" id="remove">&lt;&lt; remove</a>  
  </div>  
 
  <p><a href=# id=calculate>calculate server side</a>
 
-   <span id=result>?</span>
+   <div id=result></div>
+   
 
     </body>
 </html>

@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 420,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 18:13:45 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Works great!"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Warning: I was sent an open damaged item despite being listed as NEW"
+      },
+      {
+        "property1": "i bought the Nexus 10 as an alternate to the iPad because i was sick to death of iTunes for file transfer and the fact that the only way to get files into and out of the ipad is through itunes... I used a motorola droid phone so expected i could access the nexus memory the same way, as a drive through the usb port. no joy. most of these android tablets use MMS (?) memory so no drive letter is available. works like a direct digital camera connection... bummer but much faster and more transparent than itunes. ...the main problem now with the Nexus 10 is that it takes so long to charge... it is the first rechargable device i have owned that actually discharges if you are using it while chargeing it! battery life is good but it takes 12 hours to get 6-7 hours of battery life into it.definitely not happy about this and since it is pretty heavy after trying the Nexus 7 i have ordered the N7 to replace it.GREAT SCREEN, PERFECT FOR MOVIES AND BROWSING, and the grandkids love it for games. Good value. just not my ideal.",
+        "property2": "Nexus 10 - great screen"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Once you go high res, it's nearly impossible to want to go back"
+      },
+      {
+        "property1": "[...]Ask yourself if you have time to wipe and reinstall your apps just to get this thing not crashing left and right.\"I have the same freezes and rebooting issues, even after the 4.2.2 update. I also did a complete wipe and manually installed all of my apps afterwards. No crashes for 4 days, 5 hours and 59 minutes, now I've had two in less than 24 hours. Fewer than before 4.2.2 but not fixed.I can say that nearly all my crashes seem to be related to notifications from the Play Store that updates are available to apps. As soon as I recover from a crash...there's the update notification. Almost every single time. I don't use Chrome, BTW.\"",
+        "property2": "Don't buy until they fix this."
+      },
+      {
+        "property1": "This is the Android tablet to get, although it does lean heavily on \"the cloud\" in many regard.Pros:- The display is stunning. You have to see it in person to truly appreciate it.- This tablet is powerful, and runs smoothly.- $100 less than an iPad.Cons:- Some Apps have to be side-loaded to install on Android 4.2. This is only an issue for a few apps.- Few apps take advantage of the 300ppi display.Google set the bar high for Android tablets, and went on to prove that you don't have to pay extravagant prices for a great electronic.",
+        "property2": "Great Tablet."
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Awesome tablet...Awful Seller"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Nice product."
+      },
+      {
+        "property1": "I love this tablet. The look, feel, performance, and price is excellent. The screen is absolutely gorgeous. Navigation is quite zippy with no lag. I have a Samsung Galaxy Note 10.1 and a Kindle Fire HD 8.9 and I feel the Nexus 10 is superior. I've also played around with an Ipad briefly and I would choose the Nexus 10 over it. This is the perfect media consumption device. There is one flaw, there is light bleed from the screen. I was surprised by this. My other tablets have light bleed as well. The light bleed is only noticeable on a very dark to black screen. But everything else about the tablet is so good, I'm able to overlook this. The rubbery backing is excellent and make this device a pleasure to hold and use. The sound is also very good, though not as good as the Galaxy Note 10.1. I feel the color temperature is spot on with the Nexus. The Galaxy Note 10.1 is too cool, making whites appear blue. The Kindle Fire HD 8.9 is too warm and the colors are too saturated. With the Nexus 10, videos are phenomenal. The colors are natural and the image is super sharp. Easily the best screen I've seen on any tablet, or computer for that matter. This is truly an amazing tablet, the best I've used so far.",
+        "property2": "The best tablet. Period."
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "The Nexus 10 is a very good choice"
+      }
+    ]
+  }
+}

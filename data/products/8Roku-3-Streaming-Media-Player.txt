@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 445,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 19:54:49 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This was my 4th Roku and I've been really pleased with the others. This one, however, I did not like. It constantly disconnected from my router (4-5 times per day) and on the last few days before I returned it to Costco, all of My Channel icons had disappeared. The small rectangles that represented the various channels were visible but the corresponding images associated with those screen areas were missing.Also, the biggest problem I had - and it may not be Roku's fault - was with the Netflix interface. It was totally different from my other Roku devices. The shows that I had queued under My List were so tiny on my 47\" screen that I needed a pair of binoculars to read them from my chair. Also, there was a feature that continuously played episodes from series. For example, I started to watch Fringe Series1Ep1. When it was over, Netflix automatically started Series1Ep2 and so on. I am with Comcast and they have a Bandwith limit now in place. If I fall asleep in front of the tube or walk away without turning Netflix off, I don't want my bandwidth wasted on programs I am not watching. There was no way I found to resize the icons nor turn off the automatic play. When I returned the Roku 3, I ordered a Roku 2 from Amazon. I have it installed now and it works very well. None of the problems mentioned above. I would recommend Roku to friends but NOT Roku 3.",
+        "property2": "Returned after a week"
+      },
+      {
+        "property1": "I have had the Roku 2 for 2 or 3 years and love it. We've never had a problem with it, so when we got a new TV in another room we decided to get the new Roku 3. With the upgraded processor and Netflix as well as the headphone jack on the remote, I thought it would be perfect. Just a couple of days after purchasing it the something happened to the remote where you could only hear sound through the remote. If you unplugged the headphones from the jack on the remote, it would still act as if headphones were plugged in and you would hear no sound from the TV. So I took it back and got a replacement unit.This time I've had the sound go out (it sounded like the audio was in slow motion but the video was normal). After powering off the device for a few minutes and then turning it back on that seemed to fix the problem. A factory reset didn't do the trick. I've looked online and this doesn't seem to be an uncommon problem. I only review the product to bring more attention to this particular problem that Roku is having with their latest model. If I were reviewing the Roku 2, I'd give it 5 stars, but this unit is too glitchy for me to give it more than 1 start. Once they fix the problems with the remote and sound I'd have no problem revisiting this review and upgrading the starts. As it stands now, the device is too new and I would not recommend a Roku 3 to anyone.",
+        "property2": "Beware of the Roku 3"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "closer to cutting the cable"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "3 minutes from open box to watching TV"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Love It!"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Best Internet TV Device Available -- Be Wary Comcast Customers"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Really like the unit but bad customer service"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Roku 3 Works Great, Minor Challenges with Remote"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Bye Bye Cable!"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Neat feature in the remote to plug in headphones"
+      }
+    ]
+  }
+}

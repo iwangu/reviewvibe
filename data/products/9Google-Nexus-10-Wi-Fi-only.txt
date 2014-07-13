@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 426,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 18:14:17 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "I love my Nexus 10!"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Not exactly what I had hoped"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "love love love"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Great product"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Good Tablet, Good Price."
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Awesome screen res; not quite as fast as I'd like"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "New to the Tablet/Pad Game"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "It does everything I want"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "love it."
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Excellent Item for the price!"
+      }
+    ]
+  }
+}

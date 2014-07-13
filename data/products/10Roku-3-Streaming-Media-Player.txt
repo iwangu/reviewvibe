@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 447,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 19:54:58 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Excellent choice for the \"bedroom\" TV"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "A remote with headphones is a game-changer!"
+      },
+      {
+        "property1": "Roku 3 delivers all that it claims and does it very well. But for me Roku 2 also did all that very well. The three very desirable features for me that Roku 3 has are (i) ability to show home videos and photographs on a big screen, (ii) ability for instant replay of last 7 seconds of a video and (iii) head phone jack in the remote.",
+        "property2": "Why I liked Roku 3 very much"
+      },
+      {
+        "property1": "I must admit I only purchased this roku because I was so intrigued by the remote headphone set up, since I couldn't find any similar type headset model. However, as it worked out, I am delighted overall with this version of Roku, even though I already had a relatively new roku, plus a Vizio connected tv. The original roku primarily was for HBO go. However, I had found my earlier roku a little buggy, and the stream would stop and go, which never happened with my Vizio tv, so I knew it was not my internet or wireless connection. On this version, it is very smooth, and the HD level picture is very sharp, so this one's operations overall are far superior. Also, you can use it now to search for movies/shows, the way you would with some apps. So, under the main Search, you can input \"Argo,\" for instance, and it will show you all services that offer it (obviously aside from itunes which is not available on roku) and at what cost, including what is offered under amazon prime.And, the headphone set-up is quite delightful. The sound is terrific, and easy to control. Very useful if you're concerned about the noise level when you're watching a movie after midnight. You can also walk around and still hear the sound.",
+        "property2": "Worth the upgrade"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "If you're thinking you can CUT CABLE, Think Again :("
+      },
+      {
+        "property1": "My wife bought me the 1st R3 in late October direct from Roku, I strongly advise against this.Immediately, I experienced erratic cut outs while using head phones. Within a week or two, the remote was non-functioning despite normal diagnostics/reconnection tricks, etc. I was able to use an old remote compatible w/all Roku base units, however, no headphones.My initial contact to Roku was via live chat, it was immediately clear the rep had little knowledge of wireless products rather had a flow sheet to work off of. After ~ 3hrs, nothing resolved. The rep made an apt for a more technical person to call me. That Rep called 3 hrs early when I wasn't home.Upon calling back, Roku agreed to send me a new remote, I asked for verification whether the remote was new or refurbished, neither during phone call or follow-up e-mail was my concern verified yet they were nevertheless obvious...they stated it would be verified working properly. Further, I was told consistently, the remote would be received within 3-5 business days.On day 7, I called for status, Roku indicated an issue in their warehouse??? Again, I asked for verification re: the remote was new or refurbished, they confirmed refurbished.For perspective, 1 month earlier we'd paid for a brand new unit, however, it appears warranty replacements are broken, returned & refurbished. This may be cheaper for Roku but an insult to consumer.I demanded as I had previously that Roku honor its 30-day money back guarantee. Finally, Roku indicated the clock began on date of purchase rather than receipt (easy enough to verify via tracking #) thus I was 32 days out & did not qualify for guarantee.I persisted in my request & worst case, I was 2 days over, not significantly so. Eventually Roku relented & sent me an RMA for money back.2nd R3 was purchased locally, with an open-ended return policy.With #2 the remote has not ceased working, however, it's use for listening to movies w/headphones it futile. Further, to confirm whether ear-buds or remote we purchased 4 different pairs of ear-buds. All cut in and out. We intend to return it, we may try the Roku2 it appears to have all aspects of R3 except game motion detection.By contrast my old Roku, 1st to come w/HDMI port is still kicking fine w/original remote ~ 4 yrs later in basement for kids.In conclusion, R3, nice concept, should have done much more development before releasing for consumer or better quality components. Additionally, this ~$80-$100 unit is manufactured in China for pennies on the dollar. Then, Customer Service which is extremely limited in knowledge & decision-making ability is based in India. All for a product primarily consumed in the US. Such is sad story of greed, corruption & centralization of money and power increasingly in a single branch of government.",
+        "property2": "Nice concept, crap design & Roku customer service"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Waste of Money"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Roku Delivers a Stellar Product"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Roku brought thier game on this one!"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Creates a new WiFi access point and interferes with existing network"
+      }
+    ]
+  }
+}

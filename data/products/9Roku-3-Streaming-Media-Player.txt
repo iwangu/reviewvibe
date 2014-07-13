@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 446,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 19:54:54 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "It appears to be all I expected."
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "MUCH BETTER THAN ROKU 2"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Would have paid the amount just for the remote..."
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Wouldn't live without one."
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Great device for my needs"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "In general not too much of an upgrade and much worse in one respect"
+      },
+      {
+        "property1": "I am already a Roku fan owning a 2 XS and have enjoyed many hours of trouble free streaming from Netflix, Amazon and Roku news channels. I needed a Roku on another TV and thought I'd move the 2 XS to that and give the Roku 3 the prime spot on the big screen in the family room. I'm so glad I waited on the Roku 3 to do that because this new model rocks!First off, I have to say the new Roku is blazing fast, booting much faster than the 2 XS did. If I had to restart the 2 the reboot time was almost annoyingly long. When booting the 3 for the first time I was going to leave the room prepared for a long boot, but it finished before I got the chance! I love the music and animation on the new boot screen too.The Roku 3 was as easy to set up as my 2 XS and in fact seemed easier because it's just plain faster at everything. It's good to see that Roku subtlety improved things that already work well while keeping the set-up and first use as simplistic as it was in the past.I love the new interface! The Roku 2 interface is simple to use, but the single row operations menu and channel list makes navigating around and finding your channels difficult at times. The new interface uses a sliding window approach and that makes navigation simpler. My channel list is now on several rows and finding channels is easier than it was previously. The new search is great too and using that actually makes finding channels of interest easier for the things you want to watch. In general the new interface feels more natural, is highly intuitive and frankly, I wish more Roku channels would use the same style as it would make working within channels easier and provide a more consistent experience in using Roku.Did I mention the Roku3 is extremely fast? Seriously, aside from the improvements in start-up and navigating around I find starting streams super fast now and even doing things like rewind and resume from pause take noticeably less time.The only nit I have with the Roku 3 is the elimination of the optical audio port. I have an older audio receiver without HDMI and I've avoided upgrading as it suits my needs. While I use the TV speakers for the majority of the material I watch I do occasionally want to watch movies in 5.1 audio and now I won't be able to do that until I upgrade my receiver. I've been thinking about doing that anyway, so I took a chance on the Roku 3 and I'm happy I did!Great job Roku!",
+        "property2": "Love the Roku 3!"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "BREAKING NEWS: Roku admits there are problems with this model."
+      },
+      {
+        "property1": "I was able to preview the Roku 3 before final release and this product is amazing. This is my first time testing a product like this before and I love it. It has a search feature to find out what services are playing your favorite movie or TV show. The streaming was rock solid, didn't have any glitches that I saw. You can also play angry birds on it which was fun on my 65 in tv. It comes with a remote / gaming remote similar to how the wii controller works. There are also headphone jacks that plug into the remote for listening to Pandora or a movie and not disturbing people around you. When you plug in the headphones the tv sound will go off. It was quite fun and entertaining.The only issues I had was for my sound system there was no optical audio out, it does have HDMI so I just plugged it direct into my tv for sound and video. You can plug in a USB stick and it will play most media files but as of writing this it does not play avi fles.All in all I loved this and it worked like a charm.",
+        "property2": "Roku 3 Love it"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Works Great"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 437,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 19:54:13 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Google Chromecast HDMI Streaming Media Player"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Should have been great"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "A huge headache."
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "I love it"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Great,"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "No instructions"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Time waster"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Returned it."
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "More limited than advertised"
+      },
+      {
+        "property1": "When I first learned of this gadget, I couldn't believe how cheap it is. But I soon found out that you get what you pay for.Compared to Roku and Apple TV, the selection of channels is very limiting. There's much more quality content from those two TV boxes. Plus, Chromecast doesn't have a remote control, so you have to have a tablet or smartphone handy, with the app open. Honestly, a remote is much more convenient for a family to use. The Chromecast seems much more glitchy too.Sure, this thing is cheap, but for about just $15 more you can get a full-featured Roku box with a nice remote. Roku's remote and on-screen menus give it a more polished, traditional TV experience. Or for a few more bucks, the Apple TV has a even more premium experience. Apple TV has special features that work with iPads and iPhones, like AirPlay.",
+        "property2": "Competitors offer more value"
+      }
+    ]
+  }
+}

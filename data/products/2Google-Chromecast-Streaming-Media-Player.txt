@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 429,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 19:53:37 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "From awesome to worthless in one update."
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Neat idea but not ready for prime time..."
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "I think I could love it - if it worked longer then a few minutes"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Very limited and buggy"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Wait until Google gets their act together (unless you want to be part of their product development team)."
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "netflix fails consistently"
+      },
+      {
+        "property1": "I bought this device for one specific reason - to be able to display content on my nexus 7 chrome browser to my TV. And while the marketing content on the box claims \"send video or anything on the web to your TV from your smartphone, tablet, or laptop\", the claim is simply not true. (The box even shows the chrome logo above the claim, for goodness sakes!)I am unable to stream anything from my chrome browser on my tablet to my TV. There is quite a bit of talk on other forums about whether or not Google is being deceiving about this. Apparently, on the chromecast *website* it states the device only casts chrome content from Mac or Windows versions of chrome. But nowhere is that clarified on the actual product box.And even that's not true. (To our benefit)I am able to stream chrome web content from my chromebook.Given I have a roku, the chromecast doesn't really add much value. And while the ability to basically use my tablet or smartphone as a remote control for Netflix is cool, that's not what I was hoping for.I hope Google will better match the stated claims on their product's box at some point. Being able to stream from your photo gallery also seems like a no-brainer...but is not available either.",
+        "property2": "A Bit Deceiving"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "DLink router?"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Our last 30 minutes with Chromecast..."
+      },
+      {
+        "property1": "I and probably most people bought this with the dream of watching locally stored video on my TV. My PC and Laptop are in other rooms from where my TV sits. I'm not moving my laptop to be near the TV whenever I want to watch a stored video. There's no room for a laptop except for the floor and with a 7 year old child and a dog running around the house, that is not going to happen. The Chromecast would solve this problem. But Google is being a butt-head about letting developers release there apps. This device was released on July 24, 2013. Today is 16 October and still NOTHING. When an enterprising individual came up with his own app to play locally stored video, Google killed it with an update to the Chromecast. For Google wanting to be more open with this device, it takes a backseat to it's precious partners who have yet to get off the stick. Third party developer's have Apps waiting in the wings and Google is the roadblock. As for the FEW available apps, they do work great.So, my advice is DO NOT BUY until Google is ready to let the ball roll. Keep checking back here for newer reviews that will then sing this thing praises. Then you'll know it's time to buy. For now, my $35 is wasted. I haven't used in in almost 2 months. It'll sit there for now.",
+        "property2": "Save your money!!!! . . . for now"
+      }
+    ]
+  }
+}

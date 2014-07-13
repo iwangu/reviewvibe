@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 439,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 19:54:21 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Love the ROKU products, but consider waiting before upgrading"
+      },
+      {
+        "property1": "I have had the plain old Roku for 2 years - no issues - I bought the Roku 3 and everything worked for 3 weeks then in the middle of a movie on VUDU - bam! blue screen with the text - HDCP DISABLED - CONTENT NOT AUTHORIZED. I figured it was a glitch and did the usual - unplug, re-plug, move cables - I had sound, menus, catalog for my queue and catalog for movies - NETFLIX, HULU+, AMAZON, VUDU, EPIX, COOKING AND EXERCISE CHANNELS. Everything there till you try to play one - sound, not picture same text every channel - except ANGRY BIRDS - that worked great ... So I called the tech department which began a 2 1/2 week journey into hell from overseas on a global scale. They had me running in circles, giving model numbers on my TV's - even on the third call swapping out the device with all 3 of my televisions which I had to carry into my living room - hookup and go through the drill - I spent 8 hours on the my cell phone and online chats just on one day. I finally told them to just send me a Roku 2 after reading that thousands of people have the same issue and nothing is being done to fix it. I was globally P.Off - but they wouldn't send me one. They wanted me to send mine in, let them check it and decide if I needed a new one. If not they would send that one back to me. We are now looking at a period of 6 weeks for them to have one more satisfied customer, that was in May still haven't received it back. They told me it was my fault - in order to re-boot the Roku 3 you then have to go in and reset every channel password again - I did this 16 times with them on chat or on the phone. I have the chat conversations in my email where they would cancel the chat and then say that I had terminated conversation. I would not recommend this device for anyone - only due to the miserable customer service - when all was finished I had talked to 3 different Roku techs who went through the same routine and had no answers - Seriously- Google the HDCP text message or go into the Roku chat line I spent over 12 hours of chats and 3 hours of phone conversations. My Sharp tv is 16 months old and they said it was out of date - one of my others had just been purchased, both tv techs said this is a copyright issue with the Roku 3 - it will not stream video due to mistaken copyright infringement perception. So, $80.00 in new cables, overcharges on my cell phone, 2 days of wasted time and serious rise in blood pressure - still not resolved. But!!! I do know how to get to the secret screen - of course that didn't help but I feel special LOL.",
+        "property2": "Less than one Star -"
+      },
+      {
+        "property1": "I was a bit leery at first at how well streaming could work. I had used netflix on several other devices, including my PS3 and found it less than desirable. However, after using the Roku 3 for a few hours, I was amazed at how well it works! It is like a completely different world.When unboxing it, the first amazing part was how small it was! This thing is tiny if you are used to game consoles or cable boxes. It was a breeze to setup, hooks up with HDMI and our secure WIFI. After registering on the website, it immediately started syncing up with the channels we selected. I tried out some movies from amazon and it worked flawlessly. Total setup time was < 10 minutes.The remote works very well, I love that it uses radio instead of IR so it isn't directional. That was one of my favorite features of my PS3. It is amazing that not everyone has adapted this technology already. The built-in headphone adapter is neat as well, allowing for private viewing of movies.After my first few hours, there were only a few small flaws I found:1. After setup, it was running in 720P by default and not 1080P, but it was easy to switch.2. The plug is wide sideways box (almost as large as the Roku itself) and takes up extra space on my power strip.Very smooth and highly recommended if you want to go with any sort of streaming solution!",
+        "property2": "Great for streaming and cord cutting"
+      },
+      {
+        "property1": "First let me say I LOVE ROKU PLAYERS! I Have owned many and they have worked great. Roku 3 is the first player I have had trouble with. I wouldn't worry if I only had trouble with ONE player but BOTH units I bought have lasted for less then two months. When I contacted customer service they offered to replace one player after we trouble shot in all the ways I had ALREADY troubleshot for almost an hour. They will only replace the unit AFTER I ship in the defective unit which means not only am I paying for return shipping I am also looking at several weeks of paying for channels I cannot use. I think companies like Amazon and Apple owe much of there success to their willingness to stand behind their products. When my kindle broke Amazon sent me a new product two day shipping with a label to send the non-working kindle back. I would understand if I had owned the Roku's for a year but investing MORE money two months after purchasing two Roku 3's is hard to deal with. After My replacement Roku dies I will be switching to something different. I need to go with a company that stands behind its products and has good customer service.",
+        "property2": "PLEASE READ!"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Just wanted to add my little bit"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Customer service nightmare"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Roku easily replaces my Sony BD BluRay fro streaming"
+      },
+      {
+        "property1": "I bought this a week ago (from ***mart because I was able to put it on my ***mart credit card) and I just got around to setting it up and trying it out yesterday.(I've used a borrowed Nintendo Wii to stream Netflix to my TV before but, aside from this, I have no prior experience using this type of a device.)What I like: - The included instructions. Setup was fast and flawless. - The user interface looks nice and it's a breeze to navigate. - Being able to move my channels around is a big plus. I can order them the way I want them. - The search feature is nothing short of amazing: you can search for content (by title or actor's name) across all your channels at once. - It's a LOT faster than the Wii I used to use. Everything loads quickly and plays smoothly. - Overall audio and video quality is fantastic! My TV is a cheaper model, only 720p, and about 3 years old - but nearly everything looks/sounds great! - I can stream all my YouTube Playlists via the VideoBuzz private channel. - I now have my local current (Wunderground) weather and forecast right on my TV! (There are 2 or 3 other weather-type channels like this also - just plug in your zip code and you're set.) - The ability to stream and listen to my favorite music via Pandora. - The remote is Wi-Fi Direct (instead of IR or Bluetooth). - The remote + earphones. Nice idea and great sound quality too - I can use them anywhere in my (1,100 s.f. or so) apartment with no static or discernible signal loss. - I was able to pull apart the R and L ear buds (down to the notch) to accommodate my full beard - plenty of room for my big head now! ^_^ - Limited access to my Facebook page via the Facebook photo & video channel. - The USB port for my thumbdrive (32GB). I can view/watch/listen to local jpg, png, MP3, and MP4 files to my heart's content. - Tons of GOOD free food, movie, and family entertainment channels & networks (including a lot of the private ones - so be sure and Google a recent list!) - Lots of free Spiritual/Inspirational (Christian/Hebrew Roots, Jewish, Muslim) channels and networks available - including some favorites of mine (Tomorrow's World, Zola Levitt, etc).What could be better: - The headphone cord is *just* long enough for me to listen while I wander around with the remote in my pocket, but another 4-6 inches would be better, I think. - The option to use a composite cable (for use with older televisions) would be nice. - More in the way of live or real-time news streaming. CNN International (CNNI - a private channel) is nice to have, but the sound quality is a bit dodgy for me.My advice to anyone considering buying a Roku 3: Read all the personal and tech reviews you can find, first. Discover what it'll do and what it won't do *before* you buy. Wikipedia has an excellent article on all Roku models and their respective features, with loads of references to boot.This Roku 3 rocks!",
+        "property2": "I only gave it 5 stars because I can't give it 10!"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Incredible"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "*****ROKU 3-IMPORTANT READ BEFORE YOU BUY*****"
+      }
+    ]
+  }
+}

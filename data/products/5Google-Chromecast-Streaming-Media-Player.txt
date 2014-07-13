@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 432,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 19:53:52 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Beware: Streaming from Chrome is poor"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Not as great as expected"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Couldn't get it to work properly..."
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Sucks!"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Very Limited as to what programs you can Chromecast"
+      },
+      {
+        "property1": "I have used my new Google Chromecast HDMI streaming media player with excellent results on my Kindle Fire HD streaming Netflix to my TV. The best part of this is that for streaming the Netflix app it does not actually stream from the Fire HD using battery life, etc. Once the connection is made to the TV on the Chromecast device the Chromecast itself goes out the the Netflix site to stream the movie and the Fire HD has only a a small connection to the Google device to control volume, pause or stop.At $35 this is a great deal if you have the Fire HD and want to watch Netflix videos, or YouTube, on a bedroom, den or guest room TV that has an available HDMI port and good WiFi connection.",
+        "property2": "Kindle Fire HD 7\" & Chromecast"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Wait for the next generation"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Save your money"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Giving up"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Dont waste your time if you are trying to stream from a laptop/chrome"
+      }
+    ]
+  }
+}

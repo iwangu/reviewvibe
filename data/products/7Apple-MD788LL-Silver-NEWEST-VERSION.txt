@@ -1,0 +1,71 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 414,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 18:13:21 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MF502LL/A (16GB, Wi-Fi + T-Mobile, White with Silver) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MF502LL-T-Mobile-Silver-VERSION/dp/B00G4G6TU4/ref=cm_cr_pr_orig_subj/187-7861743-4120006"
+        },
+        "property2": "BEWARE of unusable iPad Air!"
+      },
+      {
+        "property1": "Though it was $15 more from Apple, I am okay with it. My wife loves it. The perfect user device no questions asked.",
+        "property2": "Best tablet in the market that i could find for my wife THOUGH i am a Android fan!"
+      },
+      {
+        "property1": {
+          "text": "Help other customers find the most helpful reviews \nWas this review helpful to you? Yes\nNo \nReport abuse\n| PermalinkComment Comment (1)",
+          "href": "http://www.amazon.com/gp/voting/cast/Reviews/2115/R1DW9VYGONR4CK/Helpful/1/ref=cm_cr_prvoteyn/187-7861743-4120006?ie=UTF8&target=aHR0cDovL3d3dy5hbWF6b24uY29tL3Jldmlldy9CMDBHMlk0V05ZL3JlZj1jbV9jcl9wcnZvdGVyZHIvMTg3LTc4NjE3NDMtNDEyMDAwNj9fZW5jb2Rpbmc9VVRGOCZwYWdlTnVtYmVyPTc&token=AA6BE6F780F7573A882CB7AE83355EDA4B53315E&voteAnchorName=R1DW9VYGONR4CK.2115.Helpful.Reviews&voteSessionID=187-7861743-4120006"
+        },
+        "property2": "Best large tablet on the market, but more choices than ever."
+      },
+      {
+        "property1": "This review is from: Apple iPad Air MD788LL/A (16GB, Wi-Fi, White with Silver) NEWEST VERSION (Personal Computers)",
+        "property2": "Should have bought one years ago!"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MF016LL/A (128GB, Wi-Fi + Verizon, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MF016LL-Verizon-NEWEST-VERSION/dp/B00G4FZAIM/ref=cm_cr_pr_orig_subj/187-7861743-4120006"
+        },
+        "property2": "Flight Panel and Business Machine?"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD787LL/A (64GB, Wi-Fi, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD787LL-Wi-Fi-NEWEST-VERSION/dp/B00G2XRVNS/ref=cm_cr_pr_orig_subj/187-7861743-4120006"
+        },
+        "property2": "Wow"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD786LL/A (32GB, Wi-Fi, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD786LL-Wi-Fi-NEWEST-VERSION/dp/B00G2X1VIY/ref=cm_cr_pr_orig_subj/187-7861743-4120006"
+        },
+        "property2": "Not What We Purchased!!!"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD786LL/A (32GB, Wi-Fi, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD786LL-Wi-Fi-NEWEST-VERSION/dp/B00G2X1VIY/ref=cm_cr_pr_orig_subj/187-7861743-4120006"
+        },
+        "property2": "This is more a review of the seller than the product"
+      },
+      {
+        "property1": "Do you remember being in grade school and having the kid you were in love with pick on you or make fun of you on the playground? Remember what your mom and dad explained to you was the reason for that public humiliation? Because they liked you too! The same principle applies to all the competitors that say bad things about the iPad. It's because secretly, they want to BE the iiPad.You can buy a competitor's product, but any way you slice it, it won't even begin to measure up. Just remember, every time they say something negative, they are really saying how much they love the iPad. Nothing else compares to the bright screen on the iPad Air, or the way that it feel resting ever so lightly in your hands. It just feels right.And that is what Apple has done so right. It never wavered or varied based on the negative opinions of other companies. It never even responded to them. On the playground Apple walks away without a scratch, without trying, and without lifting a finger to respond to any other tablet's challenge. It doesn't have to. And everybody loves it. See, mom really does know best.",
+        "property2": "Simply the best"
+      },
+      {
+        "property1": "This review is from: Apple iPad Air MD788LL/A (16GB, Wi-Fi, White with Silver) NEWEST VERSION (Personal Computers)",
+        "property2": "Great product but must return it due to multiple issues"
+      }
+    ]
+  }
+}

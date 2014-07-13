@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 425,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 18:14:12 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Almost DOA"
+      },
+      {
+        "property1": "Update 1/7/13: After hours spent on the phone with various customer support reps from Google, Samsung, and, my ISP, as well as more than twice that time reading Android and Nexus forums, I have tried every solution offered. Nothing has worked. The tablet works great on free wifi everywhere I go, but it will not work on our home network. Google support has a list of about 6 routers that will not work with Nexus devices, but mine is not on there. Otherwise, it says \"most\" home routers will work. If you have a Cisco WRT160N, please be aware you will likely have the same problems I have had.We have checked and changed the frequency of the router, unplugged and plugged the router, changed.the router SSID to be all one lowercase word, changed the frequency on the tablet, told the tablet to forget our network, set the tablet to use a static IP rather than DHCP, done a firmware update on the router, and done a factory restore of the router, all multiple times and in all combinations. Nothing has worked.All the issues I was having are known issues both for Android devices in general and Nexus devices specifically and have been discussed in forums repeatedly since early 2011, so I'm not sure why Google doesn't seem to be training its support reps (who don't seem to know anything particular about the tech involved) about these issues.Original review:I received one of these tablets for Christmas and was unable to get on to the internet after accessing our wifi. Terrible customer service from Google. The second person finally told me it was a defective device and would have to be returned to Walmart. For days, we waited after returning it, because no one had the device in stock. Finally, I get a brand-new device...and have the same issue. I have spoken to THREE customer support people today. Google needs to train their people better. I told them the problem, told them all the steps I'd been through with every other person I'd spoken to, and they ALL insisted on going through all the steps again. One of the times, I even called with a possible solution...I just had to know where one setting was on the machine...and I never got that answer. I was repeatedly told to make sure my router was broadcasting 2.4gHz because this device will operate only on that. And then I discovered by playing in the device's settings that that is FALSE. The default setting is auto, but you can specify 2.4gHz or 5.0gHz. One of their solutions to check my connection was to have me connect to another wifi network. I live in the country, so this is impossible unless I make a trip to a neighbor's house or a town. Apparently, the folks at Google don't realize that there are people still living without being surrounded by wifi. After resetting my router twice, shutting it down numerous times, and calling my ISP so I could tell the Google people that the ISP has assured me that our internet connection is fine (they don't believe the three other computers and two gaming consoles) that were currently connected, I have finally decided I don't want a Nexus 10 or any other Google device. It's not worth the trouble, apparently. (Five total calls to Google Support on two days for two different devices, and I still can't use the darn thing for anything other than a camera or a paperweight.)",
+        "property2": "May be a great item, but terrible customer support"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "LOVE IT"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Very pleased with the Nexus"
+      },
+      {
+        "property1": "I bought a Nexus 10 not long after they first came out after comparing it with all others. And I told people it was the best one out there after using it for a while. But then they updated the software, and it's terrible. Even after many other owners had the same problem and complained, they had another update and didn't even care enough to fix the problem. So it still reboots on its own three or four times a day, hard to connect to wi-fi, etc. I won't buy another one.",
+        "property2": "Google's update ruined this tablet"
+      },
+      {
+        "property1": "When it works it is really nice! I have had my nexus 10 for over a year. I have had intermittent problems with it suddenly shutting down. Now it constantly drops my wifi. We has a new Asus router, so I doubt that is the problem! I bought this tablet instead of an iPad because of price and it seemed so promising. My husbands iPad 2 consistently works. There is a reason iPads dominate the market. Buyer beware. I wouldn't buy a nexus again.",
+        "property2": "Not worth the frustrations"
+      },
+      {
+        "property1": "So we dove in and bought the nex 10- it's now 7 months old and I really DID like it until we started have those charging problems that i'd read about but ignored.Problem starts off when after a night of charging, surprise it's not charge. Then some days it charges overnight, others, nope. Last three days, not doing a thing. It's sitting on the shelf right now charging, has the charge icon going and everything, but will it charge today?Hmm I wonder. Apparently you can only run the Nexus off battery so no way can you just plug it in.So it's become 3-400 bucks worth of worthlessness. Yes it has the best screen out there but all that flash is horsedoo if you can't see it. I would at this point in my experience buy another tablet brand and give google time to either fix it or get out of the tablet market. I can see why google did NOT offer a one yr warranty, why create problems for yourself.Final notes: I really love amazon - they said to go ahead an return it. This is why I shop amazon, they've got your back.",
+        "property2": "i'd buy something else now; give them time to fix problems"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Better than expected"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Love it!"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "samsung google nexus 10"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 434,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 19:53:58 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Nice little device"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Easy setup, useless from there on."
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Works 30% of the time"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Great price for an awesome streamer (FAQs included)"
+      },
+      {
+        "property1": {
+          "text": "Help other customers find the most helpful reviews \nWas this review helpful to you? Yes\nNo \nReport abuse\n| PermalinkComment Comment (1)",
+          "href": "http://www.amazon.com/gp/voting/cast/Reviews/2115/RLTF42GXGARAI/Helpful/1/ref=cm_cr_prvoteyn/187-1902251-2363628?ie=UTF8&target=aHR0cDovL3d3dy5hbWF6b24uY29tL3Jldmlldy9CMDBEUjBQRE5FL3JlZj1jbV9jcl9wcnZvdGVyZHIvMTg3LTE5MDIyNTEtMjM2MzYyOD9fZW5jb2Rpbmc9VVRGOCZwYWdlTnVtYmVyPTc&token=62E4AC40525B02B782B26C709598B395A9AE121F&voteAnchorName=RLTF42GXGARAI.2115.Helpful.Reviews&voteSessionID=187-1902251-2363628"
+        },
+        "property2": "Over priced and misleading"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Great device for streaming content to your TV"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Almost there... BEST for streaming Netflix"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Not very impressed"
+      },
+      {
+        "property1": "This is a thorough review of Chromecast paired with:- Nexus 4 running 4.2.2 Jelly Bean- Windows 7 64bit PCI will review Chromecast based on the aforementioned devices running Netflix, Youtube, Google Play (supported apps per 07/26/2013), and several webpages.1) Installation: [5/5]Nexus 4: Install Chromecast app from google play: [...]PC: Require Google Chrome Browser and Google Cast Web Extension: [...] (not needed for Netflix and Youtube).Chromecast (TV): Other than inserting your wifi password, there is no other installation.2) Netflix (the best app so far): [5/5]Both Netflix app (on Nexus 4) and Netflix website (PC) has a native \"Cast\" icon build in. If you are connected to the similar wireless network to your Chromecast, both Netflix app and website will recognize it. As soon as you click the icon, the TV will turn on (if the TV was off) and it takes about 3-5 seconds for the video to start. So you do not even need to pick up your TV's remote to turn on the TV.On Android: when a video is playing, there are Play/Pause, Stop, Repeat icons on your notification bar and also on your Lock screen acting like a controller to your TV. You can also control the volume from your phone. Even if you completely close the Netflix app, the video is still running, while the controller remain on the notification bar. The next time you open Netflix app, it will automatically recognize the connectivity and you can either choose another video or go to controller page.On PC: pretty much similar experience with Netflix app on Android phone. You can close your chrome browser tab, and it will not disturb the video. Next time you open Netflix tab, you can control the video.3) Youtube: [5/5]Everything is pretty much similar to Netflix. The only thing that the Android's Youtube app lacks in comparison with Netflix is that there is no Play/Pause, Stop, etc. control on the notification bar nor at the Lock Screen. However, when a video is playing, there is a still notification that will open the Youtube app.Other thought on Netflix and Youtube apps: I am very impressed with the 'switch-ability' between PC to Android and vice versa even between these two apps/website (Youtube and Netflix). No matter which app I opened first from either device (PC or Android), it is smart enough to \"read\" each other, in a way that there is almost no dis-connectivity at all between apps and devices.4) Google Play: [4/5]On Android: there is the native \"Cast\" icon on both Google Play Music and Google Play TV & Movies. It only plays online content, not the local content.On PC: Unlike Netflix and Youtube website, (as per today 07/26/2013) there is no native \"Cast\" icon on Google Play Music and on Google Play Video (which actually opens an embedded Youtube player but without \"Cast\" icon). However, the \"Google Cast\" chrome browser extension will be able to do the job for these two websites. See next discussion for more details about this extension.5) Mirroring from Chrome Browser \"Google Cast\" Extension (Beta): [4/5]First of all, the mirroring is NOT similar to \"duplicate screen\". You can only cast a single Google Chrome's browser tab. So technically, you cannot use your TV as your alternative monitor screen, because you can't see your mouse hovering on your TV. It will only display exactly everything inside your Chrome tab. I am casting this page as I am typing, and I notice 1-2 seconds lag between my typing and what it shows on TV. As long as the cast tab is not closed, you can continue use your PC for something else.I tested several websites that has a video feature and I have concluded that Chromecast video mirroring works on every websites that utilize Adobe Flash to run the audio/video; that includes:- Google Play Music (play.google.com/music/listen) and TV&Movies (play.google.com/movies?hl=en)- Pandora.com- Play.Spotify.com- Vimeo.com- TheVerge.com- ESPN.go.com- etc.Unfortunately, Amazon Instant Video is the only video website that doesn't work. I assume that Silverlight is not supported at this moment.Additional note: Because there is no extension feature on Android Chrome Browser, I do not find a way to cast from Android Chrome browser.[Update 07/28/2013]:Local content that is supported by Chrome browser/OS can be played/cast to TV just by dragging the icon file into the active-cast Chrome tab (credit: CAC1031 and MaestroT - thank you). Here is the list of supported files: [...] While the music/video is cast to the TV via a Chrome tab, you still can watch another video or listening to another music on your PC.Final Thought: If there are more websites and apps that are as integrated as Netflix, this small little device can be ridiculously convenient. It works almost flawlessly between apps, across different devices. When I saw the launch demo, I found it hard to grasp how the inter-connectivity works - for they tend to use \"marketing\" language in this kind of demo. But lo and behold, it just works. Even though there are some imperfection on the chrome browser mirroring (beta) and inability to play local content (at least currently), I don't think it justifies a star reduction. For what it does, at this price, I would still give Chromecast 5/5.Thank you,WP",
+        "property2": "Thorough review of Chromecast paired with Android phone and PC"
+      },
+      {
+        "property1": "This review is from: Google Chromecast HDMI Streaming Media Player (Electronics)",
+        "property2": "Limited functionality"
+      }
+    ]
+  }
+}

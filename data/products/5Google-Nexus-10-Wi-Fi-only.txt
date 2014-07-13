@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 422,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 18:13:56 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "As much as I would like to give the Google Nexus 10 five stars I'm disappointed in the performance and customer service from Google and Samsung. I've had my Google Nexus 10 for 3 months, in the the past two weeks I've had constant freezes and rebooting due to apps and programs. My most recent problem has been using the panoramic mode; when taking photos in panoramic mode by battery life goes from 100% charged to 0%. I contacted Google about the issue and they stated that I would need to contact the manufacturer which is Samsung since I did not purchase my Nexus 10 from the Google Store. So I contacted Samsung about my problem and I was transferred 10 times to several different Samsung departments; in which each representative would tell me that they were transferring me to their Nexus 10 WiFi only department, I never spoke to anyone in the Nexus 10 WiFi only department. Each time I spoke to a representative they wanted me to provide my phone number, full name, area code, and email address which i stopped doing after the 5th transfer, instead I would ask the representative if this was the NEXUS 10 department and the representative would tell that it wasn't and they would transfer me to the \"RIGHT\" department that could help me with with my issue. It was extremely annoying and disappointing that I couldn't get any help after 25 minutes of being on the phone with customer service and after being transferred one last time the automated system ended the call. I called back after the call was ended and once again I was transferred back and forth I then spoke to an Omar who stated that he only worked in the laptop department, a Rachel who then transferred me to a Barry, this Barry was supposedly the person that would be able to help me but he too transferred me to the \"NEXUS 10 WIFI ONLY DEPARTMENT\" after 19 minutes the automated system ended the call. I still don't understand how I kept connecting to people not in the tablet department, since the automated system gives you the choice to connect to the tablet department when you call Samsung customer service. I would say save your money b/c you may need some help from customer services and unfortunately there won't be any solutions to your problem.",
+        "property2": "Poor customer service"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Screen good as Retina"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Nexus 10 rocks..."
+      },
+      {
+        "property1": "If I could I would give this 4.5 or 4.75 stars as it's not perfect, but show me a tablet that is. The resolution on this thing is great, however I think the new Ipad's have better color range. At least from a side by side comparison it seemed that way. Nexus is definitely sharper though. Construction is pretty solid too. Mine took a tumble and landed on a piece of metal which dented the speaker cover a little but everything seemed to make it out ok. I think most tablets (my note 2 included) would have been on the way to the trash bin at that point.Lack of an SD is also a negative, but with programs like dropbox where you can get around 50GB of free storage it's not really an issue for me.I was also pleasantly surprised by the speaker power. I can listen to this while I take a shower no problem.Plays videos including netflix and .mp4 like a dream.If you want amazon prime videos or other flash stuff you will have to download something other than chrome and then do a little tinkering to get flash on here. There is no amazon prime app for android. They have one for iOS and google TV but not android(this is very unfortunate and only serves to make amazon instant videos less necessary to me).",
+        "property2": "Very Impressed"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "I think I prefer this over the most recent Note 10.1"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "I like it"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "mine arrived uncharged and unchargeable - a pity since the tablet itself is probably great"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Nexuscellence"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Great Tablet!"
+      },
+      {
+        "property1": "I bought a refurbished version of this tablet to replace an Apple iPad 2 that was stolen. When it arrived, it was running Android 4.2 and I couldn't get it to update to 4.4. I tried updating manually but I couldn't get that to work either. Eventually I connected it via usb to the computer and it updated automatically at that point. So if you're having trouble updating, try connecting to a computer with the usb and leaving it for a bit; it will probably update OTA (over the air) at that point.The tablet was buggy as a box of bees until the upgrade - turned off when put to sleep, youtube, google music, google video all nonfunctioning - but once it updated it was like a new machine. It now works perfectly. The display is gorgeous and it's fairly light for the size; I have a Kindle paperwhite for extensive reading of epubs (which I love), but my eyes aren't great so this tablet's size is terrific for pdfs. Of course, you can't beat it for video or web surfing.Reasons why I love this tablet more than my stolen ipad: 1) lower price for similar specs; 2) can use mini-usb/usb connector to access a flash drive (why are people complaining about the lack of an SD card?); 3) can use apps to customize, particularly being able to dim display all the way down for low-light conditions; 4) compatible with adobe flash, at least in certain circumstances.I haven't found battery life to be a problem, but it can be improved by turning off bluetooth, GPS (location), and NFC data exchange if you're not using them and dimming the screen.Overall, performance on the Nexus 10 is fantastic and it compares favorably with the iPad 2 in all respects. It's not the end-all tablet for everyone. The size alone means that smaller 7 or 8 inch tablets would be better for some users in some situations but if you're looking for a lot of screen real estate and don't want to spend a lot of money, this tablet is an awesome alternative to Apple.",
+        "property2": "Awesome!"
+      }
+    ]
+  }
+}

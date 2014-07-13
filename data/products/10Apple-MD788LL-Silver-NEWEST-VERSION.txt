@@ -1,0 +1,68 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 417,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 18:13:32 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Apple iPad Air MD788LL/A (16GB, Wi-Fi, White with Silver) NEWEST VERSION (Personal Computers)",
+        "property2": "She loves it!"
+      },
+      {
+        "property1": "I have owned the ipad air, 16gb, for a little over a month now, and it is perfect for my everyday busy life. It is slim, lightweight, and fast! It has the biggest AppStore out there, which is good for my kids. My teenage son loves it because he can do school research on it! No more using an old desktop. This tablet also has the new a7 chip which makes faster. Even though I did not buy it from amazon, I bought it from AT&T, you should consider buying it from here too,.",
+        "property2": "Still the best!"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air ME898LL/A (128GB, Wi-Fi, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-ME898LL-128GB-NEWEST-VERSION/dp/B00G2XSL3C/ref=cm_cr_pr_orig_subj/187-0036694-5888839"
+        },
+        "property2": "posted earlier"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD785LL/A (16GB, Wi-Fi, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD785LL-Wi-Fi-NEWEST-VERSION/dp/B00G2TK76A/ref=cm_cr_pr_orig_subj/187-0036694-5888839"
+        },
+        "property2": "Great"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MF009LL/A (64GB, Wi-Fi + AT&T, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MF009LL-Wi-Fi-NEWEST-VERSION/dp/B00G2YD32K/ref=cm_cr_pr_orig_subj/187-0036694-5888839"
+        },
+        "property2": "Nice iPad air and a great deal!"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD786LL/A (32GB, Wi-Fi, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD786LL-Wi-Fi-NEWEST-VERSION/dp/B00G2X1VIY/ref=cm_cr_pr_orig_subj/187-0036694-5888839"
+        },
+        "property2": "Very happy customer"
+      },
+      {
+        "property1": "I love the new IPad Air. I got it the day it came out in stores. It starts with the ultra-sharp exterior. If you loved last year's iPad Mini, you'll feel right at home with the Air. Apple essentially built a larger version of the Mini with the Air, by slimming the beveling of previous iPads to achieve a sleeker framework.The lack of heft makes the Air just a little more comfortable: An LTE-equipped Air weighs all of 1.05 pounds. Wrapped in a comfy and protective Apple Smart Case, the Air weighs 1.368 pounds, still lighter than a third-generation iPad by itself. Despite the lack of size, the Air is no less tough. It's sturdy and not at all easy to bend.The Air feels that much more like an electronic magazine. The Retina display, once the standard for all screens but also facing more competition this year, helps that; reading text and viewing web pages on that crystal-clear, pixel-dense screen is the same joy it was when Apple first built Retina screens into its tablets early last year.If this is all Apple did, it would likely still be enough to keep it on top. But the iPad Air does far more, starting with the new processor powering the entire experience, the A7. The same dual-core, 64-bit A7 chip that debuted in the iPhone 5S is in the iPad Air; and initially, this seems like a disappointment. In theory, you expect something more in Apple's flagship tablet, something a bit more powerful, with perhaps more graphical horsepower.In practice, you won't notice a thing. Web browsing and apps still handle as snappily as ever, even if you have a gaggle of things running in the background. Top-tier games such as Infinity Blade 3 continue to deliver. A pleasant surprise is also how quickly some of the beefier games, such as Anomaly 2, loaded, compared to previous iPads. You'll move into and out of levels just a little bit more swiftly, and that helps make the entire gaming experience more friendly and natural. It's hard to know what this really means for Apple gaming, but don't rule out the possibility of more console titles being ported to the iPad.Apple realizes the limitations of the 64 GB storage too, offering a new 128-gig model. You'll pay a more-than-average-laptop premium here ($799 for the WiFi-only model and $929 for an LTE version), but the improved storage is intriguing, especially for those planning for a game-heavy future. I can now easily and comfortably load all the music and movies onto the iPad Air that I want and still have plenty of room left over for games such as XCOM: Enemy Unknown and Civilization: Revolutions.Battery life is steady, even if it's not mind-blowing. Apple claims the iPad Air can get you 10 hours on a charge, and that's definitely true. Even when using Apple's navigation for a long trip to Washington, I easily got through a day without needing to charge; and more casual usage, such as Web browsing and email checks, is no problem.The Air's lone shortcoming is that it lacks the fingerprint identification technology that debuted on the iPhone 5S. But I'd be hard-pressed to claim that this was some glaring omission; every other tablet you're going to use this year lacks such tech, and I've never seen that tech as an absolute must-have.The resulting tablet is as pleasant to use as they come, and it's backed by some consistently solid software. Android has made a tremendous run over the past few years, and a plethora of both Android and Windows Mobile devices are truly intriguing this holiday season. But if there's one consistent shortcoming on those devices, it's the up-and-down support of operating systems.It's hard to know whether this Android tab or that will support Google's latest OS, but that's almost never a problem with iPads. iOS releases are generally consistent and stable, the lone knock on Apple being its lack of Android-like customization.And while the Apps Store and iTunes are also battling competition from Microsoft's stores and Google's Marketplace, Apple's setup continues to set the bar, managing to be intuitive and easy to use and enjoying more and more high-profile digital releases.",
+        "property2": "Apple is the Best!!!!"
+      },
+      {
+        "property1": "This review is from: Apple iPad Air MD788LL/A (16GB, Wi-Fi, White with Silver) NEWEST VERSION (Personal Computers)",
+        "property2": "Love It!"
+      },
+      {
+        "property1": {
+          "text": "This review is from: Apple iPad Air MD785LL/A (16GB, Wi-Fi, Black with Space Gray) NEWEST VERSION (Personal Computers)",
+          "href": "http://www.amazon.com/Apple-MD785LL-Wi-Fi-NEWEST-VERSION/dp/B00G2TK76A/ref=cm_cr_pr_orig_subj/187-0036694-5888839"
+        },
+        "property2": "Very Nice!!"
+      },
+      {
+        "property1": "This review is from: Apple iPad Air MD788LL/A (16GB, Wi-Fi, White with Silver) NEWEST VERSION (Personal Computers)",
+        "property2": "Great"
+      }
+    ]
+  }
+}

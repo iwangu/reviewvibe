@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 440,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 19:54:26 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "More \"Miss\" than \"Hit\" with ROKU 3"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Roku 3 Compared to AppleTV"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Upgrade from Roku 2 XD to Roku 3 thoughts."
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Amazing with a few caveats."
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Roku 3 not worth warm snot!"
+      },
+      {
+        "property1": "I purchased my unit direct from Roku after a lot of reading of the reviews. No where did I see anything relating to the difficulty encountered with trying to play your own videos. It requires to acquisition of additional software plus conversion from mkv to a format the Roku would play. Upon learning this I immediately asked for an RMA number which I was promised within 48 hours. 96 hours later I still did not have it. Their customer service said it had been emailed to me, nope. They said they tried to email it to all three of my email accounts to no avail finally they just gave me the information.The unit has been returned and so far no refund. I've escalated this case to a claim with PayPal. I would not deal with them again. Their goal seems to be to discourage customer service requests by hiring folks for whom English is not the first language. Communication is difficult at best.",
+        "property2": "Terrible Customer Service"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "The Roku is a great little device"
+      },
+      {
+        "property1": "My family has been adding Roku players since the original model came out. They have all worked well from day one, so I wasn't sure it would be worth the hassle to upgrade, especially in one of our older rooms where the TV is high-def but had an older external sound system and a component-video setup using RCA-type jacks (the Roku 3 needs an HDMI cable, which BTW you need to provide). Through many frustrating experiences I've learned you can hit a snag installing even the best-designed electronics, and approach upgrades with caution.I'll skip timeline here to say that this was a great upgrade. Besides an even sleeker, smaller design, I could immediately see that the Roku 3 has a number of very worthwhile improvements: downloads are faster on both wired and wireless connections (we have both); picture quality is superb; playback/pause/rewind control is even more responsive, too.The new remote control is great. The first Roku cracked the code on how a remote should look and work: simple, intuitive controls, and a great shape for the hand. The new remote is larger, but that's justified by the content channels, including gaming, that Roku continues to develop. Also, before getting the Roku 3 I'd been unsuccessfully trying to get a better bedside headphone set-up. I have RF and IR wireless remote headphones, but prefer to use a lightweight Sony (MDR-W08) model. I was plugging it into a bluetooth transmitter/receiver kludge, which was a pain. The Roku 3 headphone jack is perfect - great sound, convenient volume controls, and the TV automatically mutes.This review is about the Roku 3, not Roku's large and increasing channel lineup (some of these channels are quite a trip down the rabbit hole). But one ending note about my Roku 3 experience: Customer Support. Never needed it before with Roku, which says a lot. However, we recently added cable service, to get a faster download speed than our maxed-out DSL service. When installing the Roku 3, it seemed to be linking fine to my local network and the internet, but then would stop and show an error message. We haven't yet disconnected the DSL yet, so I switched the internet connection to DSL and the Roku 3 installed without a hitch, indicating it probably wasn't the Roku that was at fault. The next links to check were the router and the cable modem, and I was dreading contacting support for either, since they're notorious for finger-pointing at one another. So I took a chance and connected for an on-line chat with Roku support. To my delight, it was quick, professional and (most important) knowledgeable. They suggested a change in my router's DNS server setting (which was set by default to the cable company's server) and all was well. I was very, very impressed.",
+        "property2": "Best of Show"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Roku 3 is Great"
+      },
+      {
+        "property1": "This review is from: Roku 3 Streaming Media Player (Electronics)",
+        "property2": "Love it!"
+      }
+    ]
+  }
+}

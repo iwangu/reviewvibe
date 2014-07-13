@@ -1,0 +1,56 @@
+{
+  "name": "boilerplate",
+  "count": 10,
+  "frequency": "realtime",
+  "version": 419,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jul 11 2014 18:13:40 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "After Android 4.2.2 Works Great"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Powerful and inexpensive for what you get"
+      },
+      {
+        "property1": {
+          "text": "Having used the Galaxy Tab 10.1 for a year and a half I sold it for 3/4 of the price of a Nexus 10 and upgraded. I've been quite happy with my Nexus 10 for a month now. 4.2.1 does have random hard resets and force closes, mostly related to Chrome and Google Now (I'll be upset if this isn't updated by March). The machine is almost as snappy as my Samsung SIII with Jelly Bean. The back feels velvety smooth like the back of the Playbook, and the front speakers are loud and provide good sound - I rarely reach for my Jambox with this thing. The back can be scratched, so I would recommend a Poetic Case. When I originally moved from the Tab, I found that the colors on the Nexus 10 were inferior. I don't notice it anymore. Also, the battery life is reduced from the Tab. I get about 8 hours. The only real question for me going into this tablet, was whether I would buy the Nexus 7 or 10. If you already have a 4.8 smartphone, then the 7 is redundant. I've used the 7 for extended periods and the 10 is a better pad. It has a much better screen, and the build quality is fabulous. You won't feel an ounce of remorse buying this (except for the price - shop around). The best accessory for this machine is my kindle edition, Android Mandroid: Thoughts on Android Smartphones from a Conflicted User. Trust me!",
+          "href": "http://www.amazon.com/gp/product/B00AGYB7MK/ref=cm_cr_asin_lnk/189-8152449-1189231"
+        },
+        "property2": "Hardware is superb, but 4.2.1 has some bugs"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Beautiful Screen and its fast too!"
+      },
+      {
+        "property1": "This tablet exceeded my expectations by far. I considered an iPad for so long but my father convinced me to get this. Screen quality is amazing. It has a range of video formats. Syncs perfectly to your gmail. This is the future of tablets. Pure accessibility!",
+        "property2": "Better price. Better tablet"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "I haved owned 6 tablets in the past year and this is the best"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Very nice tablet"
+      },
+      {
+        "property1": "This review is from: Google Nexus 10 (Wi-Fi only, 32 GB) (Personal Computers)",
+        "property2": "Only sold by third party sellers on Amazon. BEWARE - Do not buy from third party seller."
+      },
+      {
+        "property1": "Having used several other tablets in the past I feel qualified to give a review on this one. I use the 3rd generation iPad at work daily; have owned the third generation iPad which I sold; and own an Asus Transformer TF-101 for playing on at home. Jelly bean was not coming to that particular model so I decided to try the Nexus 10. After using the Nexus 10 for a month I am very happy I did. It is very quick even in comparison with the iPad. The apps I run on it run without hesitation and I have had few hangups though I believe those few to be app problems that will fixed in future updates. The feel is good; it is thin and light but also feels sturdy. The resolution is superb though I agree with the color problems I have read about. For most people using this for light business applications or gaming or just checking email that will not be an issue. Watching movies I could not really notice a color problem. If you are using this for photo-proofing or something similar it could be. The only real issues I have other than the color is the lack of expansion slot for a micro SD card to expand the memory and the wi-fi is not consistent, which I have noticed on other Android tablets. With everything taken into consideration I could recommend this as a top-quality tablet if you are looking for Android O/S.",
+        "property2": "Google gets it right"
+      },
+      {
+        "property1": "So here is my review of the Nexus 10.First off this tablet deserves a 5 star rating but who believes a 5 star rating anyway with all of the trolls.The review, the tablet is lighter than the Kindle Fire HD 8.9 (my wife has one). The tablet is made for media. NHL Game center is flawless, the wifi is super fast and all the chatter about the GPU not being able to DRIVE the 300 DPI is totally unrealistic and seems totally fabricated.As for the sound, well dual front facing stereo speakers are awesome and my movies sound fantastic.Moving on to Google Chrome, I have not tried that but I use Opera for browsing anyway so them issues are mute for me.Now the important thing, Paring the sucker to my phone so I can TEXT on the massive screen instead of my Samsung Avail. Tablet Talk lets me connect my phone to the tablet using Bluetooth so I can text right on my tablet since it does not have 3g connectivity. My response, spend the $2.99 and get the app.Oh and some people wine about the lack of storage on the device..well there is an app for that to. Nexus Media Importer! Just use your computer to load your external storage device with whatever data you want, photo's, music or dvd's and tada, your watching them on the Nexus 10!So in conclusion, you may get a crappy device that just does not work but I didn't.There are work-a-rounds for every issue people come up with and some people just like to complain.Hope this helps.",
+        "property2": "Marked at 3 stars But Really its 5"
+      }
+    ]
+  }
+}
