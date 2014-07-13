@@ -18,7 +18,7 @@
 
             //data['_sid'] = "123";  // survey_id injected from flask
             //data['_uip'] = "ip"; // user_ip injected from flask, request.remote_addr
-         
+          
        $.post( "{{url_for('hello')}}", $( "#content" ).serialize() );
 
             console.log(data);
