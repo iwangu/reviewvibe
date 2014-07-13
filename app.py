@@ -15,7 +15,7 @@ def form():
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('choice.html')
 
 
 # Define a route for the action of the form, for example '/hello/'
@@ -32,12 +32,20 @@ def hello():
 def add_numbers():
     a = request.args.get('a', 0, type=int)
     b = request.args.get('b', 0, type=int)
+    print jsonify(result=a + b)
     return jsonify(result=a + b)
+
+@app.route('/_select')
+def select():
+    a = request.args.get('a', 0, type=int)
+ 
+    return jsonify(result=a)
+
 
 
 # Run the app :)
 if __name__ == '__main__':
  
-    app.run(debug=True, port=int("80"))
+    app.run(debug=True, port=int("81"))
     #app.run(host="0.0.0.0",port=int("80"))
    

@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>choice</title>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}"> 
+ <script>
+
+
+       
+        </script>
+ 
+    </head>
+    <body>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{
+  url_for('static', filename='jquery.js') }}">\x3C/script>')</script>
+        <script type=text/javascript>
+  $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+</script>
+      <script type=text/javascript>
+              $().ready(function() {
+             $('#add').click(function() {
+              return !$('#select1 option:selected').remove().appendTo('#select2');
+             });
+             $('#remove').click(function() {
+              return !$('#select2 option:selected').remove().appendTo('#select1');
+             });
+            }); 
+
+                $(function() {
+    $('a#calculate').bind('click', function() {
+      $('#select2 option').each(function(i) {  
+  $(this).attr("selected", "selected");  
+ });   
+
+      $.getJSON($SCRIPT_ROOT + '/_select', {
+        a:  $('#select2').val()
+      }, function(data) {
+        $("#result").text(data.result);
+      });
+      return false;
+    });
+  });
+</script>
+<div>  
+  <select multiple id="select1">  
+   <option value="1a">1sss</option>  
+   <option value="2">2</option>  
+   <option value="3">3</option>  
+   <option value="4">4</option>  
+  </select>  
+  <a href="#" id="add">add &gt;&gt;</a>  
+ </div>  
+ <div>  
+  <select multiple id="select2"></select>  
+  <a href="#" id="remove">&lt;&lt; remove</a>  
+ </div>  
+
+ <p><a href=# id=calculate>calculate server side</a>
+
+   <span id=result>?</span>
+
+    </body>
+</html>
+ 
