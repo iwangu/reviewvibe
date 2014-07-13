@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Handle POST requests with Flask</title>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ <script>
+
+
+       
+        </script>
+ 
+    </head>
+    <body>
+        <script type="text/javascript">
+        jQuery(document).ready(function($) {
+         $('#clickme').click( function() {
+            //var data = save_input(); // data
+
+            //data['_sid'] = "123";  // survey_id injected from flask
+            //data['_uip'] = "ip"; // user_ip injected from flask, request.remote_addr
+         
+       $.post( "{{url_for('hello')}}", $( "#content" ).serialize() );
+
+            console.log(data);
+        });
+});
+        </script>
+        <a id="trigger" href="#" onclick="$('#open').click();return false;">trigger</a>
+<a id="open" href="http://google.com">open</a>
+
+        <div  id="clickme" >HTML</div>
+<div id="target">
+  Click here
+</div>
+        <div id="container">
+            <div class="title">
+                <h1>POST request with Flask</h1>
+            </div>
+            <div id="content">
+                <form method="post" action="{{ url_for('hello') }}">
+                  <label for="yourname">Please enter 11111111your name:</label>
+                  <input type="text" name="yourname" /><br />
+                  <label for="youremail">Please enter your email:</label> 
+                  <input type="text" name="youremail" /><br />
+                  <input type="submit" />
+                </form>
+            </div>
+            <div class="title">
+                <h1>Flask code</h1>
+            </div>
+                <code><pre>
+@app.route('/')
+def form():
+    return render_template('form_submit.html')
+                </pre></code>
+            </div>
+        </div>
+    </body>
+</html>
+ 
