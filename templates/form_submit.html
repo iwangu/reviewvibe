@@ -1,8 +1,7 @@
 <html>
     <head>
         <title>Handle POST requests with Flask</title>
-        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}"> 
  <script>
 
 
@@ -10,28 +9,7 @@
         </script>
  
     </head>
-    <body>
-        <script type="text/javascript">
-        jQuery(document).ready(function($) {
-         $('#clickme').click( function() {
-            //var data = save_input(); // data
-
-            //data['_sid'] = "123";  // survey_id injected from flask
-            //data['_uip'] = "ip"; // user_ip injected from flask, request.remote_addr
-          
-       $.post( "{{url_for('hello')}}", $( "#content" ).serialize() );
-
-            console.log(data);
-        });
-});
-        </script>
-        <a id="trigger" href="#" onclick="$('#open').click();return false;">trigger</a>
-<a id="open" href="http://google.com">open</a>
-
-        <div  id="clickme" >HTML</div>
-<div id="target">
-  Click here
-</div>
+    <body>  
         <div id="container">
             <div class="title"> 
                 <h1>POST request with Flask</h1>
