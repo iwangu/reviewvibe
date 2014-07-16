@@ -1,6 +1,7 @@
 from textblob import TextBlob
 import time
 import io
+import os
 import urllib 
 import pickledb
 import json 
@@ -9,6 +10,36 @@ from pprint import pprint
 from textblob import TextBlob 
 import chartFunctions
 import random
+
+from peewee import *
+DATABASE = {
+    'name': 'data/db.db',
+    'engine': 'peewee.SqliteDatabase',
+}
+
+
+db = SqliteDatabase('data/db.db')
+
+class Product(Model):
+    link = CharField()
+    name = CharField()
+    price = CharField()
+    pic = CharField()
+    posCount = IntegerField()
+    negCount = IntegerField()
+    neutCount = IntegerField()
+
+    class Meta:
+        database = db # this model uses the people database
+
+class Comment(Model):
+    productLink = ForeignKeyField(Product, related_name='links')
+    comment = TextField()  
+
+    class Meta:
+        database = db # this model uses the people database
+
+
 
 def grabkimono(products): 
    #products = ["http://www.amazon.com/Apple-MD199LL-A-TV/dp/B007I5JT4S", "http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE"]  for s in products:
@@ -52,31 +83,32 @@ def isbogus(mystring):
     #print  mystring
     return False 
 
-def grabkimono2PickleDB(products,grabNoOfPages): 
+def kimonoComments2DB(p,grabNoOfPages): 
    #products = ["http://www.amazon.com/Apple-MD199LL-A-TV/dp/B007I5JT4S", "http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE"]  for s in products:
 
-    db = pickledb.load('data.db', False) 
 
-    for pURL in products:
-        productName = pURL.split("/")[3] 
-        idOfProduct = pURL.split("/")[5]  
-        for x in range(1,grabNoOfPages+1):
-            api = "https://www.kimonolabs.com/api/b6mvxgxs?apikey=68d2fb6d1d7f5448161a279564ed03fc" +"&kimpath1=" + productName + "&kimpath2=" + "product-reviews" + "&kimpath3=" + idOfProduct + "&kimpath4=" + "ref=cm_cr_pr_top_link_"+ str(x) + "&pageNumber="+ str(x)
-            print api
+    productName = p.link.split("/")[3] 
+    idOfProduct = p.link.split("/")[5]   
+    for x in range(1,grabNoOfPages+1):
+        api = "https://www.kimonolabs.com/api/b6mvxgxs?apikey=68d2fb6d1d7f5448161a279564ed03fc" +"&kimpath1=" + productName + "&kimpath2=" + "product-reviews" + "&kimpath3=" + idOfProduct + "&kimpath4=" + "ref=cm_cr_pr_top_link_"+ str(x) + "&pageNumber="+ str(x)
+        print api
 
-            time.sleep(1) # delays for 5 seconds
-            results =""
-            print results 
-         
-            r = requests.get(api)
-            with open("tmp.txt", 'wb') as fd:
-                for chunk in r.iter_content(10):
-                    fd.write(chunk) 
+        time.sleep(2) # delays for 5 seconds
+        results =""
+        print results 
+     
+        r = requests.get(api)
+        with open("tmp.txt", 'wb') as fd:
+            for chunk in r.iter_content(10):
+                fd.write(chunk) 
 
-            fpath = "tmp.txt"
-            f = read(fpath) 
-            data = [{"price": 1, "name": "xxx", "comment"}]
-            comments = []
+        fpath = "tmp.txt"
+        f = read(fpath) 
+
+        os.remove(fpath)
+
+       # data = [{"price": 1, "name": "xxx", "comments" : commentList}]
+        try: 
             for comment in f['results']['collection1']: 
                 txt =""
                 try: 
@@ -85,11 +117,20 @@ def grabkimono2PickleDB(products,grabNoOfPages):
                     txt = comment['property1'].strip()
 
                 if(isbogus(txt)):
-                    continue
+                    continue 
 
-                comments.append(txt)
-            
-            db.set(pURL, 'value') 
+                try: 
+                    c = Comment(productLink = p, comment = txt)
+                    c.save()
+                except:
+                    print "double"
+                #price = comment['property1']['price'].strip()
+                #pic = comment['property1']['pic'].strip()
+                #name = comment['property1']['name'].strip()
+        except: 
+            print "for loop failed"
+
+
 
 def parseFiles(pLink,grabNoOfPages):        
 
@@ -204,9 +245,34 @@ def compareAndPrint(p1,p2,pNo1,pNo2):
     print "+++++++++++DONE+++++++++++++++++++++"
     return html
 
+def top100Json2List(fpath): 
+    f = read(fpath)  
+
+    # data = [{"price": 1, "name": "xxx", "comments" : commentList}]
+    commentList = []
+    for comment in f['results']['twenty']:  
+        #print comment
+        name = comment['title']['text'].strip()
+        txt = comment['title']['href'].strip()
+        txt = txt.split("\n\n\n\n\n\n\n")[1]  
+        price = comment['price']
+        pic ="" 
+        try:
+            pic = comment['pic']['src']
+        except:
+            print "ups" 
+        
+        p = Product(link=txt, name=name, pic=pic, price=price, posCount = 0, negCount = 0, neutCount = 0)
+        p.save()
+
+#kimonoComments2PickleDB([top100Json2List("data/kimonoData.json")[0]],1)
+
+top100Json2List("data/kimonoData.json")
+for p in Product.select():
+    kimonoComments2DB(p,10)
 
 def goParse100():
-    tmp = parseTop100Files("data/top100_11.07.json")
+    tmp = parseTop100Files("data/kimonoData.json")
     res = []
     #print len(tmp) 
     #r1 =  tmp[random.randint(1, len(tmp))]
@@ -223,10 +289,10 @@ p = ["http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PD
 
 #compareAndPrint(p[0],p[1],10,10)
 
-def jsonTop100ToRankAndUrl():
+def jsonTop100ToRankAndUrl(): 
     l = parseTop100Files("data/top100_11.07.json") 
     with open("data/rankAndUrlTop100_11.07.json", 'w') as outfile:
-        json.dump(l, outfile)
+        json.dump(l, outfile) 
 
 def compareAll():
     for x, left in enumerate(res):

@@ -127,3 +127,26 @@ INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabk
 INFO:werkzeug: * Restarting with reloader
 INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
 INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Running on http://127.0.0.1:81/
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2014 09:20:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2014 09:20:09] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2014 09:20:10] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2014 09:31:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2014 09:31:25] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2014 09:31:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jul/2014 09:31:40] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Running on http://127.0.0.1:81/
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading
+INFO:werkzeug: * Running on http://127.0.0.1:81/
+INFO:werkzeug: * Restarting with reloader
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2014 09:50:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2014 09:50:30] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2014 09:50:30] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2014 09:50:33] "GET /_select?a=http%3A%2F%2Fwww.amazon.com%2FGoogle-Chromecast-Streaming-Media-Player%2Fdp%2FB00DR0PDNE%2Fref%3Dzg_bs_electronics_1%2F184-6199652-9954344&b=http%3A%2F%2Fwww.amazon.com%2FRoku-3-Streaming-Media-Player%2Fdp%2FB00BGGDVOO%2Fref%3Dzg_bs_electronics_7%2F184-6199652-9954344 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2014 09:50:34] "GET /data/charts/1to1Google-Chromecast-Streaming-Media-Player-vs.-Roku-3-Streaming-Media-Player-chart2.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2014 20:00:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2014 20:00:52] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in 'F:\\reviewvibe\\python\\flask\\logic\\grabkimono.py', reloading

@@ -104,3 +104,25 @@ form input[type=submit]{
     cursor: pointer;
     text-align: center;
 } 
+
+
+/* select boxes */
+
+ a {  
+   display: block;  
+   border: 1px solid #aaa;  
+   text-decoration: none;  
+   background-color: #fafafa;  
+   color: #123456;  
+   margin: 2px;  
+   clear:both;  
+  }  
+  div {  
+   float:left;  
+   text-align: center;  
+   margin: 10px;  
+  }  
+  select {  
+   width: 300px;  
+   height: 180px;  
+  }  
