@@ -167,7 +167,7 @@ def parseFiles(pLink,grabNoOfPages):
     print "total avg subj: " + str(ssum/total)
     print "total comments: " + str(total)
 
-def parseFilesSentences(pLink,grabNoOfPages):
+def parseFilesSentences(pLink,grabNoOfComments):
     pName = pLink.split("/")[3] 
     ssum = 0.0
     psum = 0.0
@@ -223,6 +223,51 @@ def parseFilesSentences(pLink,grabNoOfPages):
     res.append(neutBin)
     return res
 
+def parseProductBySentencesSaveVibes(p,grabNoOfComments):
+    pName = p.name
+ 
+
+    ssum = 0.0  
+
+    posBin = 0
+    neutBin = 0
+    negBin = 0 
+
+    counter = 0
+    for c in Comment.select().where(Comment.productLink == p):
+        txt = c.comment
+        txtBlob = TextBlob(txt)
+        for sentenceLine in txtBlob.sentences: 
+            vibe = float(sentenceLine.sentiment.polarity)
+            subj = float(sentenceLine.sentiment.subjectivity)
+            #print str(p)  +  " "   + str(s)
+            ssum += subj
+            #psum += p
+            #total += 1.0
+
+            if vibe == 0.0:
+                neutBin += 1.0
+            elif p < 0.0:
+                negBin += 1.0
+            else:
+                posBin += 1.0
+
+            sent = Sentence(productLink=p, comment = c, vibe = vibe, subjectivity = subj, length = len(sentenceLine))
+            sent.save()
+
+        counter += 1
+        #if (counter  == grabNoOfComments):
+        #    break
+    v = Vibe(productLink=p, posCount=posBin,  negCount=negBin,  neutCount=neutBin, subjectivity = (ssum/(posBin + negBin + neutBin)))
+    v.save() 
+
+    print "total avg polar: " + str(psum/total)
+    print "total avg subj: " + str(ssum/total)
+    print "total comments: " + str(total) 
+    print "total posbin: " + str(posBin)
+    print "total negbin: " + str(negBin)
+    print "total neutbin: " + str(neutBin) 
+
 def compareAndPrint(p1,p2,pNo1,pNo2): 
     s1=parseFilesSentences(p1,pNo1)
     total1 = s1[1] + s1[2] + s1[3] 
@@ -267,9 +312,12 @@ def top100Json2List(fpath):
 
 #kimonoComments2PickleDB([top100Json2List("data/kimonoData.json")[0]],1)
 
-top100Json2List("data/kimonoData.json")
+#top100Json2List("data/kimonoData.json")
+#for p in Product.select():
+ #   kimonoComments2DB(p,10)
+
 for p in Product.select():
-    kimonoComments2DB(p,10)
+    parseProductBySentencesSaveVibes(p,-1000)
 
 def goParse100():
     tmp = parseTop100Files("data/kimonoData.json")
