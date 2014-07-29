@@ -71,7 +71,7 @@ def grabkimono(products):
         grabNoOfPages = 10     
         counter = 1
         for x in range(1,grabNoOfPages+1):
-            api = "https://www.kimonolabs.com/api/b6mvxgxs?apikey=68d2fb6d1d7f5448161a279564ed03fc" +"&kimpath1=" + productName + "&kimpath2=" + "product-reviews" + "&kimpath3=" + idOfProduct + "&kimpath4=" + "ref=cm_cr_pr_top_link_"+ str(x) + "&pageNumber="+ str(x)
+            api = "https://www.kimonolabs.com/api/b6mvxgxs?apikey=xxx" +"&kimpath1=" + productName + "&kimpath2=" + "product-reviews" + "&kimpath3=" + idOfProduct + "&kimpath4=" + "ref=cm_cr_pr_top_link_"+ str(x) + "&pageNumber="+ str(x)
             print api
 
             time.sleep(1) # delays for 5 seconds
@@ -112,7 +112,7 @@ def kimonoComments2DB(p,grabNoOfPages):
     productName = p.link.split("/")[3] 
     idOfProduct = p.link.split("/")[5]   
     for x in range(1,grabNoOfPages+1):
-        api = "https://www.kimonolabs.com/api/b6mvxgxs?apikey=68d2fb6d1d7f5448161a279564ed03fc" +"&kimpath1=" + productName + "&kimpath2=" + "product-reviews" + "&kimpath3=" + idOfProduct + "&kimpath4=" + "ref=cm_cr_pr_top_link_"+ str(x) + "&pageNumber="+ str(x)
+        api = "https://www.kimonolabs.com/api/b6mvxgxs?apikey=xxx" +"&kimpath1=" + productName + "&kimpath2=" + "product-reviews" + "&kimpath3=" + idOfProduct + "&kimpath4=" + "ref=cm_cr_pr_top_link_"+ str(x) + "&pageNumber="+ str(x)
         print api
 
         time.sleep(2) # delays for 5 seconds
