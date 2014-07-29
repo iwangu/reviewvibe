@@ -9,7 +9,7 @@ import requests
 from pprint import pprint
 from textblob import TextBlob 
 import chartFunctions
-import random
+import random 
 
 from peewee import *
 DATABASE = {
@@ -21,7 +21,7 @@ DATABASE = {
 db = SqliteDatabase('data/db.db')
 
 class Product(Model):
-    link = CharField()
+    link = CharField(unique=True)
     name = CharField()
     price = CharField()
     pic = CharField()
@@ -34,8 +34,30 @@ class Product(Model):
 
 class Comment(Model):
     productLink = ForeignKeyField(Product, related_name='links')
-    comment = TextField()  
+    comment = TextField(unique=True)  
 
+    class Meta:
+        database = db # this model uses the people database
+
+class Vibe(Model):
+    productLink = ForeignKeyField(Product, related_name='vibes')
+    
+    posCount = IntegerField()
+    negCount = IntegerField()
+    neutCount = IntegerField()
+    subjectivity = FloatField()
+
+    #avgLegnth = IntegerField()
+    class Meta:
+        database = db # this model uses the people database
+
+class Sentence(Model):
+    productLink = ForeignKeyField(Product, related_name='products') 
+    comment = ForeignKeyField(Comment, related_name='fromComment') 
+    vibe = FloatField() 
+    subjectivity = FloatField()
+    length = IntegerField()
+    #avgLegnth = IntegerField()
     class Meta:
         database = db # this model uses the people database
 
@@ -224,11 +246,9 @@ def parseFilesSentences(pLink,grabNoOfComments):
     return res
 
 def parseProductBySentencesSaveVibes(p,grabNoOfComments):
-    pName = p.name
- 
+    pName = p.name 
 
-    ssum = 0.0  
-
+    ssum = 0.0   
     posBin = 0
     neutBin = 0
     negBin = 0 
@@ -252,13 +272,13 @@ def parseProductBySentencesSaveVibes(p,grabNoOfComments):
             else:
                 posBin += 1.0
 
-            sent = Sentence(productLink=p, comment = c, vibe = vibe, subjectivity = subj, length = len(sentenceLine))
+            sent = dbModel.Sentence(productLink=p, comment = c, vibe = vibe, subjectivity = subj, length = len(sentenceLine))
             sent.save()
 
         counter += 1
         #if (counter  == grabNoOfComments):
         #    break
-    v = Vibe(productLink=p, posCount=posBin,  negCount=negBin,  neutCount=neutBin, subjectivity = (ssum/(posBin + negBin + neutBin)))
+    v = dbModel.Vibe(productLink=p, posCount=posBin,  negCount=negBin,  neutCount=neutBin, subjectivity = (ssum/(posBin + negBin + neutBin)))
     v.save() 
 
     print "total avg polar: " + str(psum/total)
@@ -312,9 +332,10 @@ def top100Json2List(fpath):
 
 #kimonoComments2PickleDB([top100Json2List("data/kimonoData.json")[0]],1)
 
-#top100Json2List("data/kimonoData.json")
-#for p in Product.select():
- #   kimonoComments2DB(p,10)
+top100Json2List("data/kimonoData.json")
+
+for p in Product.select():
+    kimonoComments2DB(p,10)
 
 for p in Product.select():
     parseProductBySentencesSaveVibes(p,-1000)

@@ -2,7 +2,7 @@
 # and render_template, to render our templates (form and response)
 # we'll use url_for to get some URLs for the app on the templates
 from flask import Flask, jsonify, render_template, request, url_for
-import logging  
+import logging   
 from grabkimono import * 
 from chartFunctions import *
 
@@ -10,21 +10,20 @@ from chartFunctions import *
 app = Flask(__name__)
 
 ##################### VIEW
-def amazonLinkToProductName(string):
+def amazonLinkTobName(string):
     return  string.split("/")[3].replace("-", " ")
 
 def getTop100Urls(fpath):  
-    l = []
+    listOfEntries = []
     f = read(fpath) 
 
-    for i in f['results']['twenty']: 
+    for entry in f['results']['twenty']: 
         txt =""
 
-        txt = i['title']['href'].strip()
+        txt = entry['title']['href'].strip()
         txt = txt.split("\n\n\n\n\n\n\n")[1] 
-        l.append(txt)
-    #pprint(l)  
-    return l
+        listOfEntries.append(txt) 
+    return listOfEntries
 ##################### VIEW END
 
 # Define a route for the default URL, which loads the form

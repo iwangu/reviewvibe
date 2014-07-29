@@ -52,5 +52,7 @@ class Sentence(Model):
         database = db # this model uses the people database
 
 
+Product.create_table() 
+Comment.create_table() 
 Vibe.create_table() 
 Sentence.create_table() 
