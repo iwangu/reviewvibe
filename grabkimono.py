@@ -64,7 +64,7 @@ class Sentence(Model):
 
 
 def grabkimono(products): 
-   #products = ["http://www.amazon.com/Apple-MD199LL-A-TV/dp/B007I5JT4S", "http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE"]  for s in products:
+   # sample input: products = ["http://www.amazon.com/Apple-MD199LL-A-TV/dp/B007I5JT4S", "http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE"]  for s in products:
     for s in products:
         productName = s.split("/")[3] 
         idOfProduct = s.split("/")[5] 
@@ -106,7 +106,7 @@ def isbogus(mystring):
     return False 
 
 def kimonoComments2DB(p,grabNoOfPages): 
-   #products = ["http://www.amazon.com/Apple-MD199LL-A-TV/dp/B007I5JT4S", "http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE"]  for s in products:
+   # sample input: products = ["http://www.amazon.com/Apple-MD199LL-A-TV/dp/B007I5JT4S", "http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE"]  for s in products:
 
 
     productName = p.link.split("/")[3] 
@@ -128,8 +128,7 @@ def kimonoComments2DB(p,grabNoOfPages):
         f = read(fpath) 
 
         os.remove(fpath)
-
-       # data = [{"price": 1, "name": "xxx", "comments" : commentList}]
+ 
         try: 
             for comment in f['results']['collection1']: 
                 txt =""
@@ -179,8 +178,7 @@ def parseFiles(pLink,grabNoOfPages):
             pprint(txt)
             txtBlob = TextBlob(txt)
             p = float(txtBlob.sentiment.polarity)
-            s = float(txtBlob.sentiment.subjectivity)
-            #print str(p)  +  " "   + str(s)
+            s = float(txtBlob.sentiment.subjectivity) 
             ssum += s
             psum += p
             total += 1.0
@@ -275,9 +273,7 @@ def parseProductBySentencesSaveVibes(p,grabNoOfComments):
             sent = dbModel.Sentence(productLink=p, comment = c, vibe = vibe, subjectivity = subj, length = len(sentenceLine))
             sent.save()
 
-        counter += 1
-        #if (counter  == grabNoOfComments):
-        #    break
+        counter += 1 
     v = dbModel.Vibe(productLink=p, posCount=posBin,  negCount=negBin,  neutCount=neutBin, subjectivity = (ssum/(posBin + negBin + neutBin)))
     v.save() 
 
@@ -295,25 +291,23 @@ def compareAndPrint(p1,p2,pNo1,pNo2):
     s2=parseFilesSentences(p2,pNo2) 
     total2 = s2[1] + s2[2] + s2[3] 
 
-    #nachjustieren
+    #adjust kimonoentries
     diff = (total1 - total2)
     if abs(diff) > 30:
         s2 = parseFilesSentences(p2,pNo2 + int(diff/70))
         print "nachjustierung: " + str(int(diff/70))
 
-    #html = chartFunctions.getHTMLFromDataDonut(s1,s2)
-    #html = "<br>"
+ 
     html = chartFunctions.getHTMLFromDataBarChart(s1,s2)
     f = open("data/charts/" + str(pNo1) + "to" + str(pNo2) + p1.split("/")[3] + '-vs.-' + p2.split("/")[3] + '-chart.html','w')
-    f.write(html) # python will convert \n to os.linesep
-    f.close() # you can omit in most cases as the destructor will call if
+    f.write(html)  
+    f.close() 
     print "+++++++++++DONE+++++++++++++++++++++"
     return html
 
 def top100Json2List(fpath): 
     f = read(fpath)  
-
-    # data = [{"price": 1, "name": "xxx", "comments" : commentList}]
+ 
     commentList = []
     for comment in f['results']['twenty']:  
         #print comment
@@ -325,13 +319,11 @@ def top100Json2List(fpath):
         try:
             pic = comment['pic']['src']
         except:
-            print "ups" 
+            print "comment entry was not having proper structure like comment['pic']['src'] " 
         
         p = Product(link=txt, name=name, pic=pic, price=price, posCount = 0, negCount = 0, neutCount = 0)
         p.save()
-
-#kimonoComments2PickleDB([top100Json2List("data/kimonoData.json")[0]],1)
-
+  
 top100Json2List("data/kimonoData.json")
 
 for p in Product.select():
@@ -342,10 +334,7 @@ for p in Product.select():
 
 def goParse100():
     tmp = parseTop100Files("data/kimonoData.json")
-    res = []
-    #print len(tmp) 
-    #r1 =  tmp[random.randint(1, len(tmp))]
-    #r2 =  tmp[random.randint(1, len(tmp))]
+    res = [] 
      
     for x in tmp:
         #print x
@@ -353,10 +342,7 @@ def goParse100():
     return res
 
 p = ["http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE/ref=zg_bs_electronics_1/184-6199652-9954344","http://www.amazon.com/Roku-3-Streaming-Media-Player/dp/B00BGGDVOO/ref=zg_bs_electronics_7/184-6199652-9954344"]
-
-#grabkimono(p)
-
-#compareAndPrint(p[0],p[1],10,10)
+ 
 
 def jsonTop100ToRankAndUrl(): 
     l = parseTop100Files("data/top100_11.07.json") 
@@ -367,16 +353,4 @@ def compareAll():
     for x, left in enumerate(res):
         print x
         print left
-
-#parseTop100Files("data/top100_11.07.json") 
-#jsonTop100ToRankAndUrl()
-#products = ["http://www.amazon.com/Apple-MD788LL-Silver-NEWEST-VERSION/dp/B00G2Y4WNY/ref=sr_1_1?s=electronics&ie=UTF8&qid=1404912902&sr=1-1&keywords=ipad+air","http://www.amazon.com/Google-Nexus-10-Wi-Fi-only/dp/B00ACVI202/"]
-#grabkimono()
-#print len( parseTop100Files("data/top100_11.07.json")[0])
-#play()
-#parseFiles(pName,10)
-#parseFilesSentences(pName,10)
-#print read('data/1Apple-MD788LL-Silver-NEWEST-VERSION.txt')
-#grabkimono()
-
-#s1 = ["Apple Ipad version xy", 111,222,333]
+ 

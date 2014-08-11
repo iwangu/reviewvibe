@@ -7,9 +7,7 @@ def getHTMLFromDataBarChart(endlist1, endlist2):
 
     width = "530px"
     height = "500px" 
-
-    #title1 = endlist1[0]
-    #title2 = endlist2[0]
+ 
 
     endlist1[0] ="(" + str(int(total1)) + " total) " + endlist1[0].replace("-", " ")
     endlist2[0] ="(" + str(int(total2)) + " total) " + endlist2[0].replace("-", " ")
@@ -20,16 +18,13 @@ def getHTMLFromDataBarChart(endlist1, endlist2):
     listOfStuff.append(endlist2)
 
     
-    fulltitle =  "" #title1 + ''' vs. ''' + title2 
+    fulltitle =  ""  
 
     html = '''<script type="text/javascript" src="https://www.google.com/jsapi"></script> <script type="text/javascript">  google.load("visualization", "1", {packages:["corechart"]});  google.setOnLoadCallback(drawChart);  function drawChart() { var data = google.visualization.arrayToDataTable(''' + str(listOfStuff) + '''); var options = {width: 530, height: 500,backgroundColor: ''' + bgcolor + ''',   title: ' ''' + fulltitle + ''' ',  hAxis: {title: '', titleTextStyle: {color: 'red'}} }; var chart = new google.visualization.ColumnChart(document.getElementById('chart_div')); chart.draw(data, options);  } </script> <div id="chart_div" style="width: ''' + width + '''; height: ''' + height + ''';"></div> '''
 
     return html
 
-def getHTMLFromDataDonut(list1, list2):
-	#preprocessing
-	#s1 =  [["Positive", 60.0], ["Negative",40.0] , ["Neutral",10.0]]
-    #s2 =  [["Positive", 60.0], ["Negative",40.0] , ["Neutral",10.0]] 
+def getHTMLFromDataDonut(list1, list2): 
 
     title1 = list1.pop(0) 
     title2 = list2.pop(0)
@@ -68,8 +63,5 @@ def getHTMLFromDataDonut(list1, list2):
 
 s1 = ["Apple Ipad version xy", 111,222,333]
 s2 = ["Nexus 7 version xy", 151,222,333]
-
-#html = getHTMLFromDataBarChart(s1,s2) + getHTMLFromDataDonut(s1,s2)
-f = open('chart2.html','w')
-#f.write(html) # python will convert \n to os.linesep
-#f.close() # you can omit in most cases as the destructor will call if
+ 
+f = open('chart2.html','w') 
