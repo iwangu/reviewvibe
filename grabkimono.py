@@ -16,8 +16,7 @@ DATABASE = {
     'name': 'data/db.db',
     'engine': 'peewee.SqliteDatabase',
 }
-
-
+ 
 db = SqliteDatabase('data/db.db')
 
 class Product(Model):
@@ -59,7 +58,7 @@ class Sentence(Model):
     length = IntegerField()
     #avgLegnth = IntegerField()
     class Meta:
-        database = db # this model uses the people database
+        database = db 
 
 
 
@@ -90,32 +89,26 @@ def read(f):
         data = json.load(data_file)
         #pprint(data)
         return data
-
-
+ 
 
 def isbogus(mystring):
-    if len(mystring.split()) < 3:
-        #print "++++++++++bogus: " + mystring
+    if len(mystring.split()) < 3: 
         return True
     bogusSentences = ["This review is from:", "PermalinkComment","Was this review helpful to you"]
     for x in bogusSentences:
-        if x in mystring:
-            #print "++++++++++bogus: " + mystring
-            return True 
-    #print  mystring
+        if x in mystring: 
+            return True  
     return False 
 
 def kimonoComments2DB(p,grabNoOfPages): 
    # sample input: products = ["http://www.amazon.com/Apple-MD199LL-A-TV/dp/B007I5JT4S", "http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE"]  for s in products:
-
-
     productName = p.link.split("/")[3] 
     idOfProduct = p.link.split("/")[5]   
     for x in range(1,grabNoOfPages+1):
         api = "https://www.kimonolabs.com/api/b6mvxgxs?apikey=xxx" +"&kimpath1=" + productName + "&kimpath2=" + "product-reviews" + "&kimpath3=" + idOfProduct + "&kimpath4=" + "ref=cm_cr_pr_top_link_"+ str(x) + "&pageNumber="+ str(x)
         print api
 
-        time.sleep(2) # delays for 5 seconds
+        time.sleep(2) # delays execution for 5 seconds to prevent congestion
         results =""
         print results 
      
@@ -144,27 +137,22 @@ def kimonoComments2DB(p,grabNoOfPages):
                     c = Comment(productLink = p, comment = txt)
                     c.save()
                 except:
-                    print "double"
-                #price = comment['property1']['price'].strip()
-                #pic = comment['property1']['pic'].strip()
-                #name = comment['property1']['name'].strip()
+                    print "comment already existing in database" 
         except: 
-            print "for loop failed"
+            print "'for loop' failed"
 
 
 
-def parseFiles(pLink,grabNoOfPages):        
-
-    pName = pLink.split("/")[3] 
-
+def parseFiles(pLink,grabNoOfPages):    
+    pName = pLink.split("/")[3]  
     ssum = 0.0
     psum = 0.0
     total = 0.0
-    for counter in range(1,grabNoOfPages+1):
-
+    
+    for counter in range(1,grabNoOfPages+1): 
         fpath = "data/products/" + str(counter) + pName + ".txt"
-        f = read(fpath) 
-
+        f = read(fpath)  
+        
         for comment in f['results']['collection1']: 
             txt =""
             try: 
@@ -173,8 +161,8 @@ def parseFiles(pLink,grabNoOfPages):
                 txt = comment['property1'].strip()
 
             if(isbogus(txt)):
-                continue
-
+                continue 
+            
             pprint(txt)
             txtBlob = TextBlob(txt)
             p = float(txtBlob.sentiment.polarity)
@@ -200,8 +188,7 @@ def parseFilesSentences(pLink,grabNoOfComments):
     res = []
     res.append(pName)
 
-    for counter in range(1,grabNoOfPages+1):
-
+    for counter in range(1,grabNoOfPages+1): 
         fpath = "data/products/" + str(counter) + pName + ".txt"
         f = read(fpath) 
 
@@ -238,23 +225,24 @@ def parseFilesSentences(pLink,grabNoOfComments):
     print "total posbin: " + str(posBin)
     print "total negbin: " + str(negBin)
     print "total neutbin: " + str(neutBin)
+    
     res.append(posBin)
     res.append(negBin)
     res.append(neutBin)
     return res
 
 def parseProductBySentencesSaveVibes(p,grabNoOfComments):
-    pName = p.name 
-
+    pName = p.name  
     ssum = 0.0   
     posBin = 0
     neutBin = 0
-    negBin = 0 
-
+    negBin = 0  
     counter = 0
+    
     for c in Comment.select().where(Comment.productLink == p):
         txt = c.comment
         txtBlob = TextBlob(txt)
+        
         for sentenceLine in txtBlob.sentences: 
             vibe = float(sentenceLine.sentiment.polarity)
             subj = float(sentenceLine.sentiment.subjectivity)
@@ -286,28 +274,24 @@ def parseProductBySentencesSaveVibes(p,grabNoOfComments):
 
 def compareAndPrint(p1,p2,pNo1,pNo2): 
     s1=parseFilesSentences(p1,pNo1)
-    total1 = s1[1] + s1[2] + s1[3] 
-
+    total1 = s1[1] + s1[2] + s1[3]  
     s2=parseFilesSentences(p2,pNo2) 
     total2 = s2[1] + s2[2] + s2[3] 
 
-    #adjust kimonoentries
+    #adjust kimonoentries of one article to fit the other article in numbers of comments pulled
     diff = (total1 - total2)
     if abs(diff) > 30:
         s2 = parseFilesSentences(p2,pNo2 + int(diff/70))
         print "nachjustierung: " + str(int(diff/70))
-
  
     html = chartFunctions.getHTMLFromDataBarChart(s1,s2)
     f = open("data/charts/" + str(pNo1) + "to" + str(pNo2) + p1.split("/")[3] + '-vs.-' + p2.split("/")[3] + '-chart.html','w')
     f.write(html)  
-    f.close() 
-    print "+++++++++++DONE+++++++++++++++++++++"
+    f.close()  
     return html
 
 def top100Json2List(fpath): 
-    f = read(fpath)  
- 
+    f = read(fpath)   
     commentList = []
     for comment in f['results']['twenty']:  
         #print comment
@@ -319,18 +303,10 @@ def top100Json2List(fpath):
         try:
             pic = comment['pic']['src']
         except:
-            print "comment entry was not having proper structure like comment['pic']['src'] " 
-        
+            print "comment entry was not having proper structure like comment['pic']['src'] "  
         p = Product(link=txt, name=name, pic=pic, price=price, posCount = 0, negCount = 0, neutCount = 0)
         p.save()
   
-top100Json2List("data/kimonoData.json")
-
-for p in Product.select():
-    kimonoComments2DB(p,10)
-
-for p in Product.select():
-    parseProductBySentencesSaveVibes(p,-1000)
 
 def goParse100():
     tmp = parseTop100Files("data/kimonoData.json")
@@ -341,16 +317,27 @@ def goParse100():
         res.append(x)
     return res
 
-p = ["http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE/ref=zg_bs_electronics_1/184-6199652-9954344","http://www.amazon.com/Roku-3-Streaming-Media-Player/dp/B00BGGDVOO/ref=zg_bs_electronics_7/184-6199652-9954344"]
- 
 
 def jsonTop100ToRankAndUrl(): 
     l = parseTop100Files("data/top100_11.07.json") 
     with open("data/rankAndUrlTop100_11.07.json", 'w') as outfile:
         json.dump(l, outfile) 
 
+
 def compareAll():
     for x, left in enumerate(res):
         print x
         print left
+ 
+#start of actual execution
+
+top100Json2List("data/kimonoData.json")
+
+for p in Product.select():
+    kimonoComments2DB(p,10)
+
+for p in Product.select():
+    parseProductBySentencesSaveVibes(p,-1000)
+
+p = ["http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE/ref=zg_bs_electronics_1/184-6199652-9954344","http://www.amazon.com/Roku-3-Streaming-Media-Player/dp/B00BGGDVOO/ref=zg_bs_electronics_7/184-6199652-9954344"]
  
