@@ -19,6 +19,7 @@ DATABASE = {
  
 db = SqliteDatabase('data/db.db')
 
+# db model for product comparison
 class Product(Model):
     link = CharField(unique=True)
     name = CharField()
@@ -31,6 +32,7 @@ class Product(Model):
     class Meta:
         database = db # this model uses the people database
 
+# db model for comments from amazon of the products
 class Comment(Model):
     productLink = ForeignKeyField(Product, related_name='links')
     comment = TextField(unique=True)  
@@ -38,18 +40,17 @@ class Comment(Model):
     class Meta:
         database = db # this model uses the people database
 
+# db model for sentiment
 class Vibe(Model):
-    productLink = ForeignKeyField(Product, related_name='vibes')
-    
+    productLink = ForeignKeyField(Product, related_name='vibes') 
     posCount = IntegerField()
     negCount = IntegerField()
     neutCount = IntegerField()
-    subjectivity = FloatField()
-
-    #avgLegnth = IntegerField()
+    subjectivity = FloatField() 
     class Meta:
         database = db # this model uses the people database
 
+# db model for each sentence and its sentiment
 class Sentence(Model):
     productLink = ForeignKeyField(Product, related_name='products') 
     comment = ForeignKeyField(Comment, related_name='fromComment') 
@@ -61,36 +62,36 @@ class Sentence(Model):
         database = db 
 
 
-
+# inpput: array of two products that should be compared
+# sample input: products = ["http://www.amazon.com/Apple-MD199LL-A-TV/dp/B007I5JT4S", "http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE"]  for s in products:
 def grabkimono(products): 
-   # sample input: products = ["http://www.amazon.com/Apple-MD199LL-A-TV/dp/B007I5JT4S", "http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE"]  for s in products:
-    for s in products:
+     for s in products:
         productName = s.split("/")[3] 
         idOfProduct = s.split("/")[5] 
         grabNoOfPages = 10     
         counter = 1
         for x in range(1,grabNoOfPages+1):
             api = "https://www.kimonolabs.com/api/b6mvxgxs?apikey=xxx" +"&kimpath1=" + productName + "&kimpath2=" + "product-reviews" + "&kimpath3=" + idOfProduct + "&kimpath4=" + "ref=cm_cr_pr_top_link_"+ str(x) + "&pageNumber="+ str(x)
-            print api
-
-            time.sleep(1) # delays for 5 seconds
+            print api 
+            # delay execution to prevent congestion
+            time.sleep(1) 
             results =""
             print results 
-         
+            #get the actual data from kimonolabs
             r = requests.get(api)
             with open("data/"  + str(counter) + productName +  ".txt", 'wb') as fd:
                 for chunk in r.iter_content(10):
                     fd.write(chunk)
             counter +=1
 
-
+# helperfunction to read a JSON file
 def read(f): 
     with open(f) as data_file:    
         data = json.load(data_file)
         #pprint(data)
         return data
  
-
+# kimonolabs grabs comment entries that are 
 def isbogus(mystring):
     if len(mystring.split()) < 3: 
         return True
@@ -100,26 +101,23 @@ def isbogus(mystring):
             return True  
     return False 
 
+# save comments to the database paginating a certain number of pages
 def kimonoComments2DB(p,grabNoOfPages): 
-   # sample input: products = ["http://www.amazon.com/Apple-MD199LL-A-TV/dp/B007I5JT4S", "http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE"]  for s in products:
     productName = p.link.split("/")[3] 
     idOfProduct = p.link.split("/")[5]   
     for x in range(1,grabNoOfPages+1):
         api = "https://www.kimonolabs.com/api/b6mvxgxs?apikey=xxx" +"&kimpath1=" + productName + "&kimpath2=" + "product-reviews" + "&kimpath3=" + idOfProduct + "&kimpath4=" + "ref=cm_cr_pr_top_link_"+ str(x) + "&pageNumber="+ str(x)
-        print api
-
-        time.sleep(2) # delays execution for 5 seconds to prevent congestion
+        print api 
+        # delays execution to prevent congestion
+        time.sleep(2) 
         results =""
-        print results 
-     
+        print results  
         r = requests.get(api)
         with open("tmp.txt", 'wb') as fd:
             for chunk in r.iter_content(10):
-                fd.write(chunk) 
-
+                fd.write(chunk)  
         fpath = "tmp.txt"
-        f = read(fpath) 
-
+        f = read(fpath)  
         os.remove(fpath)
  
         try: 
@@ -142,7 +140,7 @@ def kimonoComments2DB(p,grabNoOfPages):
             print "'for loop' failed"
 
 
-
+#product link and no. of pages t oparse the kimonooutput
 def parseFiles(pLink,grabNoOfPages):    
     pName = pLink.split("/")[3]  
     ssum = 0.0
@@ -175,6 +173,7 @@ def parseFiles(pLink,grabNoOfPages):
     print "total avg subj: " + str(ssum/total)
     print "total comments: " + str(total)
 
+# same as parseFiles but based on sentences and not on one monolithic comment
 def parseFilesSentences(pLink,grabNoOfComments):
     pName = pLink.split("/")[3] 
     ssum = 0.0
@@ -231,6 +230,7 @@ def parseFilesSentences(pLink,grabNoOfComments):
     res.append(neutBin)
     return res
 
+# for each sentence calculate the vibe (subjectivity and sentiment)
 def parseProductBySentencesSaveVibes(p,grabNoOfComments):
     pName = p.name  
     ssum = 0.0   
@@ -272,6 +272,7 @@ def parseProductBySentencesSaveVibes(p,grabNoOfComments):
     print "total negbin: " + str(negBin)
     print "total neutbin: " + str(neutBin) 
 
+#compare two products and print output as a nice google chart
 def compareAndPrint(p1,p2,pNo1,pNo2): 
     s1=parseFilesSentences(p1,pNo1)
     total1 = s1[1] + s1[2] + s1[3]  
@@ -290,6 +291,7 @@ def compareAndPrint(p1,p2,pNo1,pNo2):
     f.close()  
     return html
 
+#get top 100 products from a pre-defined JSON file and save them to the db
 def top100Json2List(fpath): 
     f = read(fpath)   
     commentList = []
@@ -329,15 +331,13 @@ def compareAll():
         print x
         print left
  
-#start of actual execution
-
+#start of actual execution of script from here
+p = ["http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE/ref=zg_bs_electronics_1/184-6199652-9954344","http://www.amazon.com/Roku-3-Streaming-Media-Player/dp/B00BGGDVOO/ref=zg_bs_electronics_7/184-6199652-9954344"]
 top100Json2List("data/kimonoData.json")
-
 for p in Product.select():
     kimonoComments2DB(p,10)
-
+    
 for p in Product.select():
     parseProductBySentencesSaveVibes(p,-1000)
 
-p = ["http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE/ref=zg_bs_electronics_1/184-6199652-9954344","http://www.amazon.com/Roku-3-Streaming-Media-Player/dp/B00BGGDVOO/ref=zg_bs_electronics_7/184-6199652-9954344"]
- 
+
